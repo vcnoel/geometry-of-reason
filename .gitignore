@@ -11,8 +11,8 @@ gsp_results/
 
 # Legacy and Archives (User Request)
 legacy/
-output/
-*.png
+# output/  <-- Kept locally but user wants to push images
+# *.png    <-- Kept locally but user wants to push images
 
 
 # IDE
