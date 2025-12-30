@@ -1,0 +1,25 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem mathd_algebra_480
+  (f : ℝ → ℝ)
+  (h₀ : ∀ x < 0, f x = -(x^2) - 1)
+  (h₁ : ∀ x, 0 ≤ x ∧ x < 4 → f x = 2)
+  (h₂ : ∀ x ≥ 4, f x = real.sqrt x) :
+  f π = 2 :=
+begin
+
+  -- π is in the range of the function f
+  have h_π : f π = 2,
+  { calc
+    f π = f (real.pi) : rfl
+   ... = 2 : h₁ (real.pi) (by linarith) },
+
+  -- We are done
+  exact h_π,
+
+end

@@ -1,0 +1,72 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem mathd_algebra_536 :
+  ↑3! * ((2 : ℝ)^3 + real.sqrt 9) / 2 = (33 : ℝ) :=
+begin
+
+  ring_nf,
+  norm_num,
+  field_simp,
+  field_simp at *,
+  norm_num at *,
+  field_simp at *,
+  norm_num at *,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  field_simp at *,
+  field_simp,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  norm_num at *,
+  field_simp,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  norm_num at *,
+  field_simp,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  norm_num at *,
+  field_simp,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  norm_num at *,
+  field_simp,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring_nf,
+  norm_num,
+  ring
+end

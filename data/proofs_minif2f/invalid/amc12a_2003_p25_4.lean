@@ -1,0 +1,39 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem amc12a_2003_p25
+  (a b : ℝ)
+  (f : ℝ → ℝ)
+  (h₀ : 0 < b)
+  (h₁ : ∀ x, f x = real.sqrt (a * x^2 + b * x))
+  (h₂ : {x | 0 ≤ f x} = f '' {x | 0 ≤ f x}) :
+  a = 0 ∨ a = -4 :=
+begin
+
+  have h₃ : {x | 0 ≤ f x} = {x | 0 ≤ a * x^2 + b * x},
+  {ext x,
+   split,
+   { intro h₄,
+     have h₅ : f x = real.sqrt (a * x^2 + b * x),
+     { rw h₁ },
+     have h₆ : 0 ≤ a * x^2 + b * x,
+     { apply h₄ },
+     have h₇ : 0 ≤ real.sqrt (a * x^2 + b * x),
+     { apply real.sqrt_nonneg },
+     rw h₅ at h₇,
+     exact h₇ },
+   { intro h₄,
+     have h₅ : f x = real.sqrt (a * x^2 + b * x),
+     { rw h₁ },
+     have h₆ : 0 ≤ a * x^2 + b * x,
+     { apply h₄ },
+     have h₇ : 0 ≤ real.sqrt (a * x^2 + b * x),
+     { apply real.sqrt_nonneg },
+     rw h₅ at h₇,
+     exact h₇ } },
+  have
+end

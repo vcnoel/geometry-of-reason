@@ -1,0 +1,20 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem induction_sum_1oktkp1
+  (n : ℕ) :
+  ∑ k in (finset.range n), (1 : ℝ) / ((k + 1) * (k + 2)) = n / (n + 1) :=
+begin
+
+  induction n with n IH,
+  { rw finset.sum_empty,
+    refl },
+  { have sum_eq_IH := finset.sum_insert (finset.range n) ((n : ℕ)) ((1 : ℝ) / ((n + 1) * (n + 2))),
+    rw [finset.sum_insert, IH, sum_eq_IH],
+    ring },
+
+end

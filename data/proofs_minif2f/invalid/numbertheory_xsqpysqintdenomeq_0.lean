@@ -1,0 +1,21 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem numbertheory_xsqpysqintdenomeq
+  (x y : ℚ)
+  (h₀ : (x^2 + y^2).denom = 1) :
+  x.denom = y.denom :=
+begin
+
+  cases (x^2 + y^2).denom with h₁ h₁',
+  { exfalso,
+    apply h₁,
+    exact (h₀ ▸ h₁') },
+  { rw h₁ at h₀,
+    exact h₀ }
+
+end

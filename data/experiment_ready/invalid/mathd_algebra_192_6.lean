@@ -1,0 +1,35 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem mathd_algebra_192
+  (q e d : ℂ)
+  (h₀ : q = 11 - (5 * complex.I))
+  (h₁ : e = 11 + (5 * complex.I))
+  (h₂ : d = 2 * complex.I) :
+  q * e * d = 292 * complex.I :=
+begin
+
+  have h₃ : q = 11 - (5 * complex.I),
+    from h₀,
+  have h₄ : e = 11 + (5 * complex.I),
+    from h₁,
+  have h₅ : d = 2 * complex.I,
+    from h₂,
+
+  have h₆ : q * e = 121 - 25 + 55 * complex.I,
+    by { rw [h₃, h₄, mul_add, mul_neg, mul_one, mul_neg, mul_one], },
+  have h₇ : q * e * d = (121 - 25 + 55 * complex.I) * 2 * complex.I,
+    by { rw [h₆, h₅, mul_assoc, mul_comm, mul_one, mul_two, mul_comm, mul_one] },
+
+  have h₈ : 121 - 25 = 96,
+    by { rw [sub_eq_add_neg, add_sub], },
+  have h₉ : 96 = 96,
+    by { refl, },
+  have h₁₀ : 96 * 2 = 192,
+    by { rw [mul_comm, mul_two], },
+  have h₁₁ : 
+end

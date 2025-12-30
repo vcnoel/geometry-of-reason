@@ -1,0 +1,32 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem mathd_algebra_109
+  (a b : ℝ)
+  (h₀ : 3 * a + 2 * b = 12)
+  (h₁ : a = 4) :
+  b = 0 :=
+begin
+
+  have h₂ : 3 * a = 12,
+  from h₁,
+
+  have h₃ : 3 * a + 2 * b = 12,
+  from h₀,
+
+  have h₄ : 12 = 12,
+  from rfl,
+
+  have h₅ : 2 * b = 0,
+  from sub_eq_zero.mpr (h₃ - h₂),
+
+  have h₆ : b = 0,
+  from div_eq_zero.mpr (h₅ / 2),
+
+  exact h₆,
+
+end

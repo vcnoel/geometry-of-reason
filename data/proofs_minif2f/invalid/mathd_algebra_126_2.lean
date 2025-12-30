@@ -1,0 +1,20 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem mathd_algebra_126
+  (x y : ℝ)
+  (h₀ : 2 * 3 = x - 9)
+  (h₁ : 2 * (-5) = y + 1) :
+  x = 15 ∧ y = -11 :=
+begin
+
+  have h₂ := h₀.add h₁,
+  have h₃ := h₂.simplify_eq,
+  have h₄ := h₃.solve,
+  exact ⟨h₄.1, h₄.2⟩,
+
+end

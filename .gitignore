@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+data/results/*.json
+data/proofs/
+gsp_results/
+
+# Legacy and Archives (User Request)
+legacy/
+output/
+*.png
+
+
+# IDE
+.vscode/
+.idea/
+
+# Local
+.env

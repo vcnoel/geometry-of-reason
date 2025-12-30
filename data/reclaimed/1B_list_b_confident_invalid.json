@@ -1,0 +1,206 @@
+[
+  {
+    "file": "algebra_sqineq_2unitcircatblt1_9.lean",
+    "hfer": 0.03735800459980965
+  },
+  {
+    "file": "mathd_numbertheory_30_9.lean",
+    "hfer": 0.03834882006049156
+  },
+  {
+    "file": "mathd_numbertheory_301_0.lean",
+    "hfer": 0.03853974863886833
+  },
+  {
+    "file": "mathd_numbertheory_92_9.lean",
+    "hfer": 0.03945944458246231
+  },
+  {
+    "file": "mathd_numbertheory_102_0.lean",
+    "hfer": 0.04123504459857941
+  },
+  {
+    "file": "mathd_numbertheory_221_7.lean",
+    "hfer": 0.04128355532884598
+  },
+  {
+    "file": "mathd_numbertheory_132_9.lean",
+    "hfer": 0.04140784218907356
+  },
+  {
+    "file": "mathd_numbertheory_269_0.lean",
+    "hfer": 0.041545622050762177
+  },
+  {
+    "file": "induction_sum2kp1npqsqm1_2.lean",
+    "hfer": 0.04155363515019417
+  },
+  {
+    "file": "algebra_2rootspoly_apatapbeq2asqp2ab_7.lean",
+    "hfer": 0.04199175536632538
+  },
+  {
+    "file": "mathd_numbertheory_961_9.lean",
+    "hfer": 0.04216252639889717
+  },
+  {
+    "file": "induction_divisibility_3divnto3m2n_0.lean",
+    "hfer": 0.04227539524435997
+  },
+  {
+    "file": "mathd_algebra_568_4.lean",
+    "hfer": 0.042292430996894836
+  },
+  {
+    "file": "algebra_binomnegdiscrineq_10alt28asqp1_8.lean",
+    "hfer": 0.04260733723640442
+  },
+  {
+    "file": "mathd_numbertheory_200_3.lean",
+    "hfer": 0.04276936128735542
+  },
+  {
+    "file": "mathd_algebra_55_1.lean",
+    "hfer": 0.04331102594733238
+  },
+  {
+    "file": "mathd_algebra_190_5.lean",
+    "hfer": 0.04351939260959625
+  },
+  {
+    "file": "induction_divisibility_3divnto3m2n_7.lean",
+    "hfer": 0.044161148369312286
+  },
+  {
+    "file": "mathd_algebra_31_9.lean",
+    "hfer": 0.0444096140563488
+  },
+  {
+    "file": "mathd_numbertheory_335_7.lean",
+    "hfer": 0.044459518045186996
+  },
+  {
+    "file": "mathd_algebra_462_9.lean",
+    "hfer": 0.04530602693557739
+  },
+  {
+    "file": "amc12a_2010_p22_7.lean",
+    "hfer": 0.0454847514629364
+  },
+  {
+    "file": "mathd_algebra_224_4.lean",
+    "hfer": 0.04562404379248619
+  },
+  {
+    "file": "mathd_algebra_462_4.lean",
+    "hfer": 0.04580967128276825
+  },
+  {
+    "file": "numbertheory_2dvd4expn_0.lean",
+    "hfer": 0.046482428908348083
+  },
+  {
+    "file": "mathd_algebra_123_0.lean",
+    "hfer": 0.046709224581718445
+  },
+  {
+    "file": "mathd_numbertheory_156_9.lean",
+    "hfer": 0.047054972499608994
+  },
+  {
+    "file": "amc12a_2009_p2_7.lean",
+    "hfer": 0.04756859689950943
+  },
+  {
+    "file": "mathd_algebra_455_8.lean",
+    "hfer": 0.047651614993810654
+  },
+  {
+    "file": "mathd_numbertheory_403_3.lean",
+    "hfer": 0.04814808443188667
+  },
+  {
+    "file": "mathd_algebra_15_5.lean",
+    "hfer": 0.04827912524342537
+  },
+  {
+    "file": "mathd_algebra_15_1.lean",
+    "hfer": 0.0483793243765831
+  },
+  {
+    "file": "algebra_2rootsintpoly_am10tap11eqasqpam110_0.lean",
+    "hfer": 0.050217095762491226
+  },
+  {
+    "file": "mathd_algebra_10_3.lean",
+    "hfer": 0.05083153769373894
+  },
+  {
+    "file": "mathd_algebra_132_9.lean",
+    "hfer": 0.051533497869968414
+  },
+  {
+    "file": "mathd_algebra_35_2.lean",
+    "hfer": 0.05168803036212921
+  },
+  {
+    "file": "numbertheory_2dvd4expn_2.lean",
+    "hfer": 0.0525401346385479
+  },
+  {
+    "file": "mathd_algebra_393_4.lean",
+    "hfer": 0.05371865630149841
+  },
+  {
+    "file": "induction_seq_mul2pnp1_9.lean",
+    "hfer": 0.05431376025080681
+  },
+  {
+    "file": "mathd_algebra_151_8.lean",
+    "hfer": 0.054636240005493164
+  },
+  {
+    "file": "mathd_algebra_132_8.lean",
+    "hfer": 0.054952267557382584
+  },
+  {
+    "file": "mathd_algebra_15_7.lean",
+    "hfer": 0.05544710159301758
+  },
+  {
+    "file": "mathd_algebra_393_8.lean",
+    "hfer": 0.05592124164104462
+  },
+  {
+    "file": "mathd_numbertheory_269_5.lean",
+    "hfer": 0.056929051876068115
+  },
+  {
+    "file": "mathd_algebra_126_5.lean",
+    "hfer": 0.05887431651353836
+  },
+  {
+    "file": "induction_seq_mul2pnp1_5.lean",
+    "hfer": 0.05907294154167175
+  },
+  {
+    "file": "mathd_algebra_480_3.lean",
+    "hfer": 0.06017131358385086
+  },
+  {
+    "file": "mathd_algebra_10_8.lean",
+    "hfer": 0.061524562537670135
+  },
+  {
+    "file": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4_0.lean",
+    "hfer": 0.06183073669672012
+  },
+  {
+    "file": "mathd_algebra_123_8.lean",
+    "hfer": 0.06257803738117218
+  },
+  {
+    "file": "mathd_algebra_15_6.lean",
+    "hfer": 0.06512287259101868
+  }
+]

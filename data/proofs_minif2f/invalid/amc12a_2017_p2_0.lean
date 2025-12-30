@@ -1,0 +1,35 @@
+import minif2f_import
+
+open_locale big_operators
+open_locale real
+open_locale nat
+open_locale topological_space
+
+theorem amc12a_2017_p2
+  (x y : ℝ)
+  (h₀ : x ≠ 0)
+  (h₁ : y ≠ 0)
+  (h₂ : x + y = 4 * (x * y)) :
+  1 / x + 1 / y = 4 :=
+begin
+
+  -- We will prove the given equality by rewriting it to 1/x + 1/y = 4.
+  -- The goal is to prove that (x+y)/(xy) = 4.
+  have h₃ : x * y ≠ 0,
+  by {rw [mul_ne_zero, mul_comm, mul_ne_zero] at h₀ h₁, exact and.intro h₀ h₁, },
+  -- Rewrite the given equation to (x+y)/(xy) = 4.
+  rw h₂,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw mul_comm,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw div_mul_eq_mul_div,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw div_eq_inv_mul,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw div_eq_inv_mul,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw mul_inv_cancel,
+  -- Simplify the equation (x+y)/(xy) = 4.
+  rw mul_inv_cancel,
+  -- Simplify the equation (x+y)/(xy) = 4
+end
