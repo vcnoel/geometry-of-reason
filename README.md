@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2501.XXXXX-b31b1b.svg)](https://arxiv.org)
 [![Powered by spectral-trust](https://img.shields.io/badge/Powered%20by-spectral--trust-blue)](https://pypi.org/project/spectral-trust/)
 
-This repository is the official implementation for the paper "**Geometry of Reason: Spectral Signatures of Valid Reasoning in Transformers**" (Noël et al., 2025).
+This repository is the official implementation for the paper "**Geometry of Reason: Spectral Signatures of Valid Reasoning in Transformers**" (Noël, 2025).
 
 It contains the code to reproduce the Inverse Scaling and Spectral Phase Transition results across Llama-3, Qwen-2.5, and Phi-3.5.
 
