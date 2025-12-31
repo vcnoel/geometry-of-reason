@@ -7,6 +7,10 @@ __pycache__/
 # Data
 data/results/*.json
 data/proofs/
+data/math/
+data/exp1_model_vs_model/
+data/experiments/
+data/paper_figures/
 gsp_results/
 
 # Legacy and Archives (User Request)

@@ -53,11 +53,16 @@ def plot_separation(samples, metric, layer, model_name):
     n_v, n_i = len(valid_vals), len(invalid_vals)
     pooled_std = np.sqrt(((n_v - 1)*std_v**2 + (n_i - 1)*std_i**2) / (n_v + n_i - 2))
     d = (mu_v - mu_i) / pooled_std
+
+    # Calculate p-value (Welch's t-test)
+    from scipy import stats
+    t_stat, p_val = stats.ttest_ind(valid_vals, invalid_vals, equal_var=False)
     
     print(f"[{model_name}] {metric} @ L{layer}")
     print(f"Valid:   mu={mu_v:.4f}, std={std_v:.4f} (N={n_v})")
     print(f"Invalid: mu={mu_i:.4f}, std={std_i:.4f} (N={n_i})")
     print(f"Cohen's d: {d:.4f}")
+    print(f"p-value:   {p_val:.4e}")
 
     # Plot
     plt.figure(figsize=(10, 6))
@@ -68,7 +73,7 @@ def plot_separation(samples, metric, layer, model_name):
     sns.rugplot(valid_vals, color='blue', height=0.1)
     sns.rugplot(invalid_vals, color='red', height=0.1)
     
-    plt.title(f"Spectral Separation: {model_name} ({metric} @ L{layer})\nCohen's d = {d:.2f}")
+    plt.title(f"Spectral Separation: {model_name} ({metric} @ L{layer})\nCohen's d = {d:.2f}, p < {p_val:.1e}")
     plt.xlabel(f"{metric} Value")
     plt.legend()
     plt.grid(True, alpha=0.3)

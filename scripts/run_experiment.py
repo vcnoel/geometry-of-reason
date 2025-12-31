@@ -28,6 +28,7 @@ def parse_args():
     parser.add_argument("--load-in-8bit", action="store_true", help="Load model in 8-bit quantization")
     parser.add_argument("--load-in-4bit", action="store_true", help="Load model in 4-bit quantization")
     parser.add_argument("--results-file", type=str, default=None, help="Path to save/load results json (optional)")
+    parser.add_argument("--extension", type=str, default="lean", help="File extension to scan for (default: lean)")
     return parser.parse_args()
 
 def compute_t_stats(valid, invalid):
@@ -173,7 +174,7 @@ def run_experiment(args):
             
             for type_ in ["valid", "invalid"]:
                 # Use data_dir argument
-                pattern = os.path.join(args.data_dir, type_, "*.lean")
+                pattern = os.path.join(args.data_dir, type_, f"*.{args.extension}")
                 files = glob.glob(pattern)
                 print(f"Processing {len(files)} {type_} proofs from {pattern}...")
                 

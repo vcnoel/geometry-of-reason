@@ -2,6 +2,7 @@ import json
 import numpy as np
 import scipy.stats as stats
 import os
+import random
 
 def cohen_d(x, y):
     nx = len(x)
@@ -24,7 +25,7 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
 
     # 2. Load List B (The "Hidden Gems" - Invalid labeled, but likely Valid)
     list_b_filenames = set()
-    if os.path.exists(list_b_file):
+    if list_b_file and os.path.exists(list_b_file):
         with open(list_b_file, 'r') as f:
             list_b = json.load(f)
             list_b_filenames = set(item['file'] for item in list_b)
@@ -32,16 +33,53 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
         print(f"Warning: {list_b_file} not found. No relabeling will occur.")
 
     # 3. Relabel Data
-    valid_samples = []
-    invalid_samples = []
+    initial_valid_samples = []
+    initial_invalid_samples = []
     
     # Process Original Valid
     for item in data["valid"]:
-        valid_samples.append(item)
+        initial_valid_samples.append(item)
         
     # Process Original Invalid
-    reclaimed = 0
     for item in data["invalid"]:
+        initial_invalid_samples.append(item)
+
+    # --- BALANCING FOR MATH EXPERIMENT (Requested by User) ---
+    if model_name == "Llama-1B-MATH":
+        target_n = 49
+        print(f"\n[INFO] Balancing dataset to {target_n} Valid vs {target_n} Invalid (randomly sampled)...")
+        random.seed(42) # Ensure reproducibility
+        
+        if len(initial_valid_samples) >= target_n:
+            final_valid = random.sample(initial_valid_samples, target_n)
+        else:
+            print(f"[WARNING] Only {len(initial_valid_samples)} valid samples available. Using all.")
+            final_valid = initial_valid_samples
+
+        if len(initial_invalid_samples) >= target_n:
+            final_invalid = random.sample(initial_invalid_samples, target_n)
+        else:
+             print(f"[WARNING] Only {len(initial_invalid_samples)} invalid samples available. Using all.")
+             final_invalid = initial_invalid_samples
+             
+        initial_valid_samples = final_valid
+        initial_invalid_samples = final_invalid
+        print(f"[INFO] Final Counts: {len(initial_valid_samples)} Valid, {len(initial_invalid_samples)} Invalid.")
+    
+    elif model_name == "Phi-3.5-MATH":
+        pass # Removed as experiment was cancelled
+    # ---------------------------------------------------------
+    # ---------------------------------------------------------
+
+    valid_samples = []
+    invalid_samples = []
+
+    # Now apply relabeling to the (potentially balanced) initial samples
+    for item in initial_valid_samples:
+        valid_samples.append(item)
+            
+    reclaimed = 0
+    for item in initial_invalid_samples:
         if item['file'] in list_b_filenames:
             valid_samples.append(item)
             reclaimed += 1
@@ -67,7 +105,10 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
                 continue
                 
             # Mann-Whitney U
-            stat, p = stats.mannwhitneyu(v_vals, i_vals)
+            stat, p_mw = stats.mannwhitneyu(v_vals, i_vals)
+            # Welch's t-test
+            t_stat, p_t = stats.ttest_ind(v_vals, i_vals, equal_var=False)
+            
             # Cohen's d
             d = cohen_d(v_vals, i_vals)
             
@@ -93,7 +134,8 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
             results.append({
                 "layer": layer,
                 "metric": metric,
-                "p": p,
+                "p_mw": p_mw,
+                "p_t": p_t,
                 "d": d,
                 "acc": best_acc,
                 "mu_v": np.mean(v_vals),
@@ -101,18 +143,22 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
             })
             
     # 5. Sort and Report Top 5
-    results.sort(key=lambda x: x["p"])
+    results.sort(key=lambda x: x["p_mw"])
     
     print("\nTOP 10 DISCRIMINATORS (Corrected):")
-    print(f"{'Metric':<15} {'Layer':<6} {'p-value':<12} {'Cohen d':<8} {'Accuracy':<8} {'Valid µ':<10} {'Invalid µ':<10}")
-    print("-" * 80)
+    print(f"{'Metric':<15} {'Layer':<6} {'p(MWU)':<10} {'p(T-Test)':<10} {'Cohen d':<8} {'Accuracy':<8} {'Valid µ':<10} {'Invalid µ':<10}")
+    print("-" * 100)
     for r in results[:10]:
-        print(f"{r['metric']:<15} {r['layer']:<6} {r['p']:.2e}   {r['d']:>6.2f}   {r['acc']*100:>5.1f}%   {r['mu_v']:<10.3f} {r['mu_i']:<10.3f}")
+        print(f"{r['metric']:<15} {r['layer']:<6} {r['p_mw']:.2e}   {r['p_t']:.2e}     {r['d']:>6.2f}   {r['acc']*100:>5.1f}%   {r['mu_v']:<10.3f} {r['mu_i']:<10.3f}")
         
     return results
 
 if __name__ == "__main__":
-    analyze_model_corrected("Llama-3.2-1B", "experiment_results_Llama-3.2-1B-Instruct.json", "analysis/1B_list_b_confident_invalid.json")
-    analyze_model_corrected("Llama-3.2-3B", "experiment_results_Llama-3.2-3B-Instruct.json", "analysis/3B_list_b_confident_invalid.json")
-    analyze_model_corrected("Meta-Llama-3.1-8B", "experiment_results_Meta-Llama-3.1-8B-Instruct.json", "analysis/8B_list_b_confident_invalid.json")
-    analyze_model_corrected("Qwen2.5-7B", "experiment_results_Qwen2.5-7B-Instruct.json", "analysis/Qwen7B_list_b_confident_invalid.json")
+    # analyze_model_corrected("Llama-3.2-1B", "data/results/experiment_results_Llama-3.2-1B-Instruct.json", "data/reclaimed/1B_list_b_confident_invalid.json")
+    # analyze_model_corrected("Llama-3.2-3B", "data/results/experiment_results_Llama-3.2-3B-Instruct.json", "data/reclaimed/3B_list_b_confident_invalid.json")
+    # analyze_model_corrected("Meta-Llama-3.1-8B", "data/results/experiment_results_Meta-Llama-3.1-8B-Instruct.json", "data/reclaimed/8B_list_b_confident_invalid.json")
+    # analyze_model_corrected("Qwen2.5-7B", "data/results/experiment_results_Qwen2.5-7B-Instruct.json", "data/reclaimed/Qwen7B_list_b_confident_invalid.json")
+    analyze_model_corrected("Qwen2.5-0.5B", "data/results/experiment_results_Qwen2.5-0.5B-Instruct.json", "data/reclaimed/Qwen0.5B_list_b_confident_invalid.json")
+    # analyze_model_corrected("Phi-3.5-mini", "data/results/experiment_results_Phi-3.5-mini-instruct.json", "data/reclaimed/Phi3.5_list_b_confident_invalid.json")
+    # analyze_model_corrected("Mistral-7B-v0.1", "data/results/experiment_results_Mistral-7B-v0.1.json", "data/reclaimed/Mistral7B_list_b_confident_invalid.json")
+    analyze_model_corrected("Llama-1B-MATH", "data/results/experiment_results_MATH_Llama-1B.json", None)
