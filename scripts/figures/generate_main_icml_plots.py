@@ -107,6 +107,11 @@ def generate_figure_2():
         df = generate_kde_csv(v_vals, i_vals)
         csv_str = df.to_csv(None, index=False, lineterminator='\n')
         
+        macro_name = f"\\mydata{chr(65+list(MODEL_FILES.keys()).index(model) if model in MODEL_FILES else 65)}"
+        # Actually simplest is just to make a safe slug
+        safe_slug = "".join([c for c in model if c.isalpha()]) + "FigTwo"
+        macro_name = f"\\mydata{safe_slug}"
+
         plots_code += fR"""
     \nextgroupplot[
         title={{{title}}},
@@ -117,11 +122,11 @@ def generate_figure_2():
     ]
     \pgfplotstableread[row sep=newline, col sep=comma]{{
 {csv_str}
-    }}\mydata{model.replace('.','').replace('-','')}
+    }}{macro_name}
     
-    \addplot [blue, fill=blue!10, area style] table [x=x, y=y_valid] {{\mydata{model.replace('.','').replace('-','')}}};
-    \addplot [red, fill=red!10, area style] table [x=x, y=y_invalid] {{\mydata{model.replace('.','').replace('-','')}}};
-    \node[anchor=north east, font=\tiny, align=right] at (axis cs: \pgfkeysvalueof{{/pgfplots/xmax}}, \pgfkeysvalueof{{/pgfplots/ymax}}) {{
+    \addplot [blue, fill=blue!10, area style] table [x=x, y=y_valid] {{{macro_name}}};
+    \addplot [red, fill=red!10, area style] table [x=x, y=y_invalid] {{{macro_name}}};
+    \node[anchor=north east, font=\tiny, align=right] at (rel axis cs: 0.95, 0.95) {{
         $d={d:.2f}$\\
         $p_{{MW}} < 10^{{{int(np.log10(p_mw))}}}$
     }};
@@ -314,6 +319,9 @@ def generate_figure_5():
         df = generate_kde_csv(v_vals, i_vals)
         csv_str = df.to_csv(None, index=False, lineterminator='\n')
         
+        safe_slug = "".join([c for c in model if c.isalpha()]) + f"FigFive{i}"
+        macro_name = f"\\mydata{safe_slug}"
+        
         plots_code += fR"""
     \nextgroupplot[
         title={{{title}}},
@@ -324,11 +332,11 @@ def generate_figure_5():
     ]
     \pgfplotstableread[row sep=newline, col sep=comma]{{
 {csv_str}
-    }}\mydatafigfive{i}
+    }}{macro_name}
     
-    \addplot [blue, fill=blue!10, area style] table [x=x, y=y_valid] {{\mydatafigfive{i}}};
-    \addplot [red, fill=red!10, area style] table [x=x, y=y_invalid] {{\mydatafigfive{i}}};
-    \node[anchor=north east, font=\small] at (axis cs: \pgfkeysvalueof{{/pgfplots/xmax}}, \pgfkeysvalueof{{/pgfplots/ymax}}) {{
+    \addplot [blue, fill=blue!10, area style] table [x=x, y=y_valid] {{{macro_name}}};
+    \addplot [red, fill=red!10, area style] table [x=x, y=y_invalid] {{{macro_name}}};
+    \node[anchor=north east, font=\small] at (rel axis cs: 0.95, 0.95) {{
         $d={d:.2f}$
     }};
 """
