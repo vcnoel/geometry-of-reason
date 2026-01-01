@@ -8,7 +8,7 @@ This repository is the official implementation for the paper "**Geometry of Reas
 It contains the code to reproduce the Inverse Scaling and Spectral Phase Transition results across Llama-3, Qwen-2.5, Phi-3.5, and Mistral-7B.
 
 ## Highlights
-![The Shape of Truth](Llama-3.1-8B-Instruct_combined.pdf)
+![The Shape of Truth](Llama-3.1-8B-Instruct_1x4_summary.png)
 
 ⚡️ **The Discovery: "The Shape of Truth"**
 **Figure 1**: We discover that valid reasoning has a distinct geometric signature. When the model hallucinates (Red), spectral noise explodes. When it reasons correctly (Blue), energy collapses into a 'smooth' state.
