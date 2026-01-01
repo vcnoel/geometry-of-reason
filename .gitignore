@@ -10,7 +10,8 @@ data/proofs/
 data/math/
 data/exp1_model_vs_model/
 data/experiments/
-data/paper_figures/
+data/minif2f_moe_prepared/
+# data/paper_figures/
 gsp_results/
 
 # Legacy and Archives (User Request)
@@ -22,6 +23,14 @@ legacy/
 # IDE
 .vscode/
 .idea/
+
+# LaTeX Build Artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
 # Local
 .env

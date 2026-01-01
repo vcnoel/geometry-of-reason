@@ -15,7 +15,8 @@ SPOTLIGHT_CONFIG = {
     "Qwen2.5-7B": [("hfer", 26), ("entropy", 2)],
     "Qwen2.5-0.5B": [("entropy", 0), ("energy", 19)],
     "Phi-3.5-mini": [("smoothness", 25), ("hfer", 26)],
-    "Mistral-7B": [("smoothness", 26), ("hfer", 11)]
+    "Mistral-7B": [("smoothness", 26), ("hfer", 11)],
+    "Qwen1.5-MoE-A2.7B-Chat": [("smoothness", 6), ("fiedler_value", 6)]
 }
 
 def load_data(results_file):
@@ -441,6 +442,7 @@ if __name__ == "__main__":
         ("Qwen2.5-0.5B-Instruct", "experiment_results_Qwen2.5-0.5B-Instruct.json", "Qwen0.5B_list_b_confident_invalid.json"),
         ("Phi-3.5-mini", "experiment_results_Phi-3.5-mini-instruct.json", "Phi3.5_list_b_confident_invalid.json"),
         ("Mistral-7B-v0.1", "experiment_results_Mistral-7B-v0.1.json", "Mistral7B_list_b_confident_invalid.json"),
+        ("Qwen1.5-MoE-A2.7B-Chat", "experiment_results_Exp1_Qwen-MoE.json", "Qwen0.5B_list_b_confident_invalid.json"),
     ]
 
     for model_name, res_file, lb_file in tqdm(models_to_process):

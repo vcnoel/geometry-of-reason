@@ -68,6 +68,90 @@ def analyze_model_corrected(model_name, results_file, list_b_file):
     
     elif model_name == "Phi-3.5-MATH":
         pass # Removed as experiment was cancelled
+
+    elif model_name == "Qwen-MoE-MiniF2F":
+        print(f"\n[INFO] Checking 50v50 split for Qwen-MoE-MiniF2F...")
+        
+        # Ensure strict 50/50
+        if len(initial_valid_samples) > 50:
+            random.seed(42)
+            initial_valid_samples = random.sample(initial_valid_samples, 50)
+        if len(initial_invalid_samples) > 50:
+            random.seed(42)
+            initial_invalid_samples = random.sample(initial_invalid_samples, 50)
+            
+        print(f"[INFO] Final Counts: {len(initial_valid_samples)} Valid, {len(initial_invalid_samples)} Invalid.")
+
+        # --- TAXONOMY ANALYSIS (Move B) ---
+        taxonomy_path = "data/minif2f_moe_prepared/taxonomy.json"
+        
+        # Prefer the Experiment Ready taxonomy if available (for larger datasets)
+        if os.path.exists("data/experiment_ready/taxonomy.json"):
+            taxonomy_path = "data/experiment_ready/taxonomy.json"
+            
+        print(f"[INFO] Using Taxonomy File: {taxonomy_path}")
+        
+        if os.path.exists(taxonomy_path):
+            with open(taxonomy_path, 'r') as f:
+                taxonomy = json.load(f)
+            
+            print(f"\n[INFO] Performing Taxonomy Correlation Analysis...")
+            
+            # Group invalid samples by type
+            invalid_logic = []
+            invalid_calc = []
+            invalid_incomplete = []
+            
+            for item in initial_invalid_samples:
+                fname = os.path.basename(item['file'])
+                category = taxonomy.get(fname, "Logic") # Default to logic
+                
+                if category == "Logic":
+                    invalid_logic.append(item)
+                elif category == "Calc":
+                    invalid_calc.append(item)
+                else: 
+                    invalid_incomplete.append(item) # "Logic_Incomplete"
+            
+            # Treat "Logic_Incomplete" as "Logic" for the main hypothesis? Or separate?
+            # User wants generic "Logic" detection. Incomplete is usually a logic failure.
+            invalid_logic.extend(invalid_incomplete)
+            
+            print(f"  - Logic/Incomplete Errors: {len(invalid_logic)}")
+            print(f"  - Calculation Errors:    {len(invalid_calc)}")
+            
+            # We need to compute d for Valid vs Logic and Valid vs Calc
+            # We need to extract the metrics first. This function usually does it later.
+            # But we can do a quick check here if we have the data.
+            # The 'item' has 'trajectory'.
+            # Let's pick a layer (e.g. 12 or best) and metric (e.g. Fiedler or HFER).
+            # We'll just print it plainly.
+            
+            def get_vals(items, layer=12, metric="fiedler_value"):
+                vs = []
+                for x in items:
+                    traj = x.get('trajectory', [])
+                    if layer < len(traj):
+                        val = traj[layer].get(metric)
+                        if val is not None: vs.append(val)
+                return vs
+
+            # Layer 12 Fiedler (Standard)
+            v_vals = get_vals(initial_valid_samples)
+            i_logic_vals = get_vals(invalid_logic)
+            i_calc_vals = get_vals(invalid_calc)
+            
+            if len(v_vals) > 1 and len(i_logic_vals) > 1:
+                d_logic = cohen_d(v_vals, i_logic_vals)
+                print(f"  >> Valid vs Logic Error (d): {d_logic:.2f}")
+                
+            if len(v_vals) > 1 and len(i_calc_vals) > 1:
+                d_calc = cohen_d(v_vals, i_calc_vals)
+                print(f"  >> Valid vs Calc Error (d):  {d_calc:.2f}")
+            else:
+                print(f"  >> Not enough Calc errors to compute d.")
+                
+        # ----------------------------------
     # ---------------------------------------------------------
     # ---------------------------------------------------------
 
@@ -162,3 +246,6 @@ if __name__ == "__main__":
     # analyze_model_corrected("Phi-3.5-mini", "data/results/experiment_results_Phi-3.5-mini-instruct.json", "data/reclaimed/Phi3.5_list_b_confident_invalid.json")
     # analyze_model_corrected("Mistral-7B-v0.1", "data/results/experiment_results_Mistral-7B-v0.1.json", "data/reclaimed/Mistral7B_list_b_confident_invalid.json")
     analyze_model_corrected("Llama-1B-MATH", "data/results/experiment_results_MATH_Llama-1B.json", None)
+    analyze_model_corrected("Qwen-MoE-MiniF2F", "data/results/experiment_results_MiniF2F_Qwen-MoE.json", None)
+    # Exp 4: MoE on Main Dataset (Using Qwen0.5B reclaimed list to match the dataset source labels)
+    analyze_model_corrected("Qwen-MoE-Exp1", "data/results/experiment_results_Exp1_Qwen-MoE.json", "data/reclaimed/Qwen0.5B_list_b_confident_invalid.json")

@@ -1,0 +1,36 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\begin{tikzpicture}
+\pgfplotstableread[row sep=newline, col sep=comma]{
+model,d
+Phi-3.5-mini,3.3
+Llama-3.2-1B,3.02
+Llama-3.1-8B,3.0
+Llama-3.2-3B,2.97
+Qwen2.5-0.5B,2.93
+Qwen-MoE,2.73
+Qwen2.5-7B,2.43
+Mistral-7B,2.09
+}\mydata
+
+\begin{axis}[
+    xbar,
+    width=8cm, height=6cm,
+    xlabel={$|Cohen's d|$},
+    ytick=data,
+    yticklabels from table={\mydata}{model},
+    nodes near coords,
+    nodes near coords align={horizontal},
+    xmax=4.0,
+    grid=major,
+    grid style={dashed, gray!30}
+]
+\addplot [fill=gray!80] table [x=d, y expr=\coordindex] {\mydata};
+\draw [red, dashed, thick] (axis cs: 0.8, -1) -- (axis cs: 0.8, 7);
+\node [red, anchor=south, rotate=90] at (axis cs: 0.85, 3) {Large Effect (0.8)};
+\end{axis}
+\end{tikzpicture}
+\end{document}

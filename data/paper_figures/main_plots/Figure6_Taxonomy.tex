@@ -1,0 +1,29 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\begin{tikzpicture}
+\pgfplotstableread[row sep=newline, col sep=comma]{
+category,d
+Logic Error,2.22
+Calculation Error,1.59
+}\mydata
+
+\begin{axis}[
+    ybar,
+    bar width=1cm,
+    width=6cm, height=5cm,
+    ylabel={$|Cohen's d|$ (Signal Strength)},
+    xtick=data,
+    xticklabels from table={\mydata}{category},
+    nodes near coords,
+    ymin=0, ymax=2.67,
+    grid=major,
+    grid style={dashed, gray!30},
+    title={The Spectral Signature of Hallucination}
+]
+\addplot [fill=purple!60] table [x expr=\coordindex, y=d] {\mydata};
+\end{axis}
+\end{tikzpicture}
+\end{document}

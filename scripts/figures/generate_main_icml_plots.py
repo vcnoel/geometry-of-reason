@@ -16,6 +16,7 @@ MODEL_FILES = {
     "Mistral-7B": ("experiment_results_Mistral-7B-v0.1.json", "Mistral7B_list_b_confident_invalid.json"),
     "Qwen2.5-0.5B": ("experiment_results_Qwen2.5-0.5B-Instruct.json", "Qwen0.5B_list_b_confident_invalid.json"),
     "Llama-1B": ("experiment_results_Llama-3.2-1B-Instruct.json", "1B_list_b_confident_invalid.json"), # For Fig 4 if needed, mostly hardcoded
+    "Qwen-MoE": ("experiment_results_Exp1_Qwen-MoE.json", "Qwen0.5B_list_b_confident_invalid.json"), # Using Qwen0.5B reclaimed list as proxy for dataset split
 }
 
 def ensure_dir(d):
@@ -251,6 +252,7 @@ def generate_figure_4():
         ("Llama-3.1-8B", 3.00),
         ("Llama-3.2-3B", 2.97),
         ("Qwen2.5-0.5B", 2.93),
+        ("Qwen-MoE", 2.73),
         ("Qwen2.5-7B", 2.43),
         ("Mistral-7B", 2.09)
     ]
@@ -365,10 +367,73 @@ def generate_figure_5():
     with open(os.path.join(OUTPUT_DIR, "Figure5_MistralEffect.tex"), "w") as f:
         f.write(tex)
 
+# -----------------------------------------------------------------------------
+# Figure 7: MoE Spectral Signature
+# -----------------------------------------------------------------------------
+def generate_figure_7():
+    print("Generating Figure 7: MoE Spectral Signature...")
+    model = "Qwen-MoE"
+    metric = "smoothness"
+    layer = 6
+    
+    valid_items, invalid_items = load_and_relabel(model)
+    v_vals = get_metric_data(valid_items, layer, metric)
+    i_vals = get_metric_data(invalid_items, layer, metric)
+    
+    # Filter none
+    v_vals = [x for x in v_vals if x is not None]
+    i_vals = [x for x in i_vals if x is not None]
+    
+    d = cohen_d(v_vals, i_vals)
+    stat, p_mw = mannwhitneyu(v_vals, i_vals)
+    
+    df = generate_kde_csv(v_vals, i_vals)
+    csv_str = df.to_csv(None, index=False, lineterminator='\n')
+    
+    safe_slug = "QwenMoEFigSeven"
+    macro_name = f"\\mydata{safe_slug}"
+    
+    tex = fR"""\documentclass[tikz,border=10pt]{{standalone}}
+\usepackage{{pgfplots}}
+\pgfplotsset{{compat=1.18}}
+
+\begin{{document}}
+\begin{{tikzpicture}}
+\pgfplotstableread[row sep=newline, col sep=comma]{{
+{csv_str}
+}}{macro_name}
+
+\begin{{axis}}[
+    width=8cm, height=6cm,
+    title={{Qwen1.5-MoE-A2.7B (Smoothness @ L6)}},
+    xlabel={{Smoothness}},
+    ylabel={{Density}},
+    grid=major,
+    grid style={{dashed, gray!30}}
+]
+
+\addplot [blue, fill=blue!10, area style] table [x=x, y=y_valid] {{ {macro_name} }};
+\addplot [red, fill=red!10, area style] table [x=x, y=y_invalid] {{ {macro_name} }};
+
+\node[anchor=north east, font=\small] at (rel axis cs: 0.95, 0.95) {{
+    $d={d:.2f}$\\
+    $p_{{MW}} < 10^{{{int(np.log10(p_mw))}}}$
+}};
+
+\legend{{Valid, Invalid}}
+
+\end{{axis}}
+\end{{tikzpicture}}
+\end{{document}}
+"""
+    with open(os.path.join(OUTPUT_DIR, "Figure7_MoE.tex"), "w") as f:
+        f.write(tex)
+
 if __name__ == "__main__":
     ensure_dir(OUTPUT_DIR)
     generate_figure_2()
     generate_figure_3()
     generate_figure_4()
     generate_figure_5()
+    generate_figure_7()
     print("All main figures generated in " + OUTPUT_DIR)

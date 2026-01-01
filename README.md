@@ -48,17 +48,38 @@ To generate the full statistical report (Table 1 & 2 in the paper):
 python scripts/reporting/generate_paper_report.py
 ```
 
-### 4. Running Ablations
-To reproduce the ablation studies (Robustness, Transfer, etc.):
+### 4. Running Ablations & Generating Plots
+To replicate the Induction Head Ablation study (Figure 8 & 9):
+
+1. **Run Ablation**:
 ```bash
-python scripts/analysis/ablations.py --file data/results/experiment_results_Meta-Llama-3.1-8B-Instruct.json --list-b data/reclaimed/8B_list_b_confident_invalid.json
+# Example for Llama-3.1-8B
+python scripts/analysis/ablations.py --model meta-llama/Meta-Llama-3.1-8B-Instruct
 ```
+*(Note: This logic is now internalized in `visualize_ablation_study.py` and batch scripts)*
+
+2. **Generate Figures**:
+Two options are available for generating the 2x2 ablation grids:
+
+*   **Option A: LaTeX (High Quality)**
+    Generates `.tex` files replicating the paper's style.
+    ```bash
+    python scripts/figures/generate_latex_ablation_suite.py
+    ```
+    Output: `output/combined_plot_latex_*.tex` (Compile with `pdflatex`).
+
+*   **Option B: Python/Matplotlib (Fast)**
+    Generates PNG/PDFs directly.
+    ```bash
+    python scripts/figures/generate_all_combined_plots.py
+    ```
+    Output: `output/combined_plot_latex_*.png`
 
 ## Visualizations
-Effect size plots and spectral trajectories can be generated using:
-```bash
-python scripts/analysis/viz_effect_size.py ...
-```
+The repository includes a suite of visualization scripts in `scripts/figures/`:
+*   `generate_main_icml_plots.py`: Generates the primary spectral separation plots (Figures 1-4).
+*   `generate_taxonomy_plot.py`: Visualizes the "Taxonomy of Failure" (Figure 6).
+*   `generate_ablation_layer_plots.py`: Layer-wise heatmaps.
 
 ## Reference
 This code relies on the [`spectral-trust`](https://pypi.org/project/spectral-trust/) library for core GSP (Graph Signal Processing) operations.

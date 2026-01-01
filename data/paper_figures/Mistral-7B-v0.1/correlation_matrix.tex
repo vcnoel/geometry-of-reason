@@ -1,0 +1,54 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\begin{tikzpicture}
+\pgfplotstableread[row sep=newline, col sep=comma]{
+x,y,val
+0,0,1.00
+1,0,0.20
+2,0,0.06
+3,0,0.02
+0,1,0.20
+1,1,1.00
+2,1,-0.71
+3,1,-0.71
+0,2,0.06
+1,2,-0.71
+2,2,1.00
+3,2,0.92
+0,3,0.02
+1,3,-0.71
+2,3,0.92
+3,3,1.00
+
+}\datatable
+
+\begin{axis}[
+    width=8cm, height=8cm,
+    colorbar,
+    colormap/coolwarm,
+    point meta min=-1, point meta max=1,
+    xtick={0,1,2,3},
+    xticklabels={Fiedler, HFER, Smoothness, entropy},
+    ytick={0,1,2,3},
+    yticklabels={Fiedler, HFER, Smoothness, entropy},
+    xticklabel style={rotate=45, anchor=north east},
+    title={Metric Correlation},
+    grid=none,
+    y dir=reverse, % Matrix convention
+    enlargelimits=false,
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta},
+    nodes near coords style={font=\scriptsize, color=black},
+]
+
+\addplot[
+    matrix plot*,
+    mesh/cols=4, % Size of matrix
+    point meta=explicit
+] table [x=x, y=y, meta=val] {\datatable};
+
+\end{axis}
+\end{tikzpicture}
+\end{document}
