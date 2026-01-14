@@ -1,6 +1,6 @@
 # Geometry of Reason: Spectral Signatures of Logical Validity
 
-[![arXiv](https://img.shields.io/badge/arXiv-2501.XXXXX-b31b1b.svg)]([https://arxiv.org](https://arxiv.org/pdf/2601.00791))
+[![arXiv](https://img.shields.io/badge/arXiv-2601.00791-b31b1b.svg)]([https://arxiv.org/pdf/2601.00791])
 [![Powered by spectral-trust](https://img.shields.io/badge/Powered%20by-spectral--trust-blue)](https://pypi.org/project/spectral-trust/)
 
 This repository is the official implementation for the paper "**Geometry of Reason: Spectral Signatures of Valid Reasoning in Transformers**" (Noël, 2026).
