@@ -22,7 +22,7 @@ It contains the code to reproduce the Inverse Scaling and Spectral Phase Transit
 - `data/`: Dataset and Results.
     - `results/`: JSON outputs from experiments.
     - `proofs/`: The raw MiniF2F proof dataset.
-    - `reclaimed/`: **The Gold Mine**. Contains the 51 "invalid" proofs (rejected by Lean) that our spectral method identified as logically valid. Manual verification confirmed these are mathematically correct.
+    - `reclaimed/`: Contains the 51 "invalid" proofs (rejected by Lean) that our spectral method identified as logically valid. Manual verification confirmed these are mathematically correct.
 
 ## Quick Start
 
