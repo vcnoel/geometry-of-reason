@@ -1,16 +1,13 @@
 # Geometry of Reason: Spectral Signatures of Logical Validity
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.00791-b31b1b.svg)](https://arxiv.org/pdf/2601.00791)
-[![Powered by spectral-trust](https://img.shields.io/badge/Powered%20by-spectral--trust-blue)](https://pypi.org/project/spectral-trust/)
-
-This repository is the official implementation for the paper "**Geometry of Reason: Spectral Signatures of Valid Reasoning in Transformers**" (Noël, 2026).
+This repository is the official implementation for the paper "**Geometry of Reason: Spectral Signatures of Valid Reasoning in Transformers**".
 
 It contains the code to reproduce the Inverse Scaling and Spectral Phase Transition results across Llama-3, Qwen-2.5, Phi-3.5, and Mistral-7B.
 
 ## Highlights
 ![The Shape of Truth](Llama-3.1-8B-Instruct_1x4_summary.png)
 
-⚡️ **The Discovery: "The Shape of Truth"**
+**The Discovery: "The Shape of Truth"**
 **Figure 1**: We discover that valid reasoning has a distinct geometric signature. When the model hallucinates (Red), spectral noise explodes. When it reasons correctly (Blue), energy collapses into a 'smooth' state.
 
 ## Repository Structure
@@ -80,28 +77,3 @@ The repository includes a suite of visualization scripts in `scripts/figures/`:
 *   `generate_main_icml_plots.py`: Generates the primary spectral separation plots (Figures 1-4).
 *   `generate_taxonomy_plot.py`: Visualizes the "Taxonomy of Failure" (Figure 6).
 *   `generate_ablation_layer_plots.py`: Layer-wise heatmaps.
-
-## Reference
-This code relies on the [`spectral-trust`](https://pypi.org/project/spectral-trust/) library for core GSP (Graph Signal Processing) operations.
-
-
-## Related Spectral Works
-This repository is part of a broader research agenda on **Spectral Interpretability** using graph theory to detect the "shape" of model cognition without training.
-
-If you are interested in this method, check out our related works on RAG and Linguistics:
-
-* **For Agentic RAG:**
-    * **Paper:** *Catching Contamination Before Generation: Spectral Kill Switches for Agents* (AAAI 2026)
-    * **Link:** [arXiv:2511.05804](https://arxiv.org)
-    * **Finding:** We use the High-Frequency Energy Ratio (HFER) to detect inconsistent or contaminated context in RAG systems with >99% AUC.
-
-* **For Linguistics:**
-    * **Paper:** *Training-Free Spectral Fingerprints of Voice Processing* (Under Review, 2026)
-    * **Link:** [arXiv:2510.19131](https://arxiv.org)
-    * **Finding:** We demonstrate that attention heads in Layers 2-5 form distinct spectral fingerprints for syntactic structures (active vs. passive voice) across 20 languages.
-
-* **For Mathematical Reasoning (This Repo):**
-    * **Paper:** *Geometry of Reason: Spectral Signatures of Valid Reasoning* (2025)
-    * **Link:** Soon
-    * **Finding:** We identify a phase transition in attention smoothness ($d > 3.3$) that distinguishes valid logical reasoning from hallucinations.
-```
