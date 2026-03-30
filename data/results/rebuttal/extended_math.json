@@ -1,0 +1,2012 @@
+{
+  "metadata": {
+    "n": 500,
+    "model": "meta-llama/Llama-3.2-1B-Instruct"
+  },
+  "summary": {
+    "mean_hfer": 0.13554504258930683,
+    "count": 500
+  },
+  "raw": [
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12603579461574554
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11739321053028107
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12817293405532837
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12382116913795471
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08523169159889221
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10950314998626709
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12440453469753265
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17813216149806976
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09076527506113052
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09702789783477783
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15135377645492554
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11102476716041565
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1437418907880783
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15055544674396515
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09099345654249191
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17188268899917603
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12157762050628662
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10971329361200333
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1351049244403839
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11291294544935226
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09450553357601166
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12177664786577225
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08159015327692032
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15386730432510376
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1043388843536377
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08157265931367874
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19701409339904785
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11756134778261185
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.163492351770401
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14675894379615784
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15582354366779327
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14950960874557495
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11022952198982239
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16826605796813965
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12574632465839386
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13863368332386017
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11580535769462585
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11055958271026611
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19141130149364471
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12785106897354126
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1262495368719101
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09852615743875504
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11911313980817795
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10880856961011887
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16359926760196686
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08457254618406296
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16628330945968628
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14552414417266846
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.06826307624578476
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09682007879018784
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10139758139848709
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1684887558221817
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15928873419761658
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10974401980638504
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1416163146495819
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16105534136295319
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13731850683689117
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17732472717761993
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16412454843521118
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11391081660985947
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14739574491977692
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09949154406785965
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15753716230392456
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13016659021377563
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09532946348190308
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18075978755950928
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09708263725042343
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.20454876124858856
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15926587581634521
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11608187854290009
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10151783376932144
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11625741422176361
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1359912008047104
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.0993543490767479
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17441332340240479
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1369415521621704
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14959940314292908
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.20104709267616272
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11621274054050446
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15892809629440308
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1571933478116989
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10616862773895264
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1089651808142662
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14639100432395935
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08522890508174896
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12093230336904526
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09216032922267914
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09927535057067871
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17634029686450958
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08552607893943787
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10990970581769943
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10584307461977005
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1028561219573021
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14879710972309113
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1492115706205368
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12918198108673096
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08930860459804535
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1881614476442337
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15989241003990173
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08341951668262482
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1037147268652916
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13514994084835052
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11295836418867111
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10396337509155273
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09736765176057816
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14161066710948944
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14120987057685852
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.18672089278697968
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10924717038869858
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13762827217578888
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.133988618850708
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17614750564098358
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11016552150249481
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19038712978363037
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12429159879684448
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15831312537193298
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14273135364055634
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13697855174541473
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14908467233181
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12481284141540527
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13879866898059845
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09480047225952148
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1370549201965332
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14743229746818542
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11723143607378006
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19296486675739288
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1647527813911438
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12246724963188171
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1689232885837555
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10619760304689407
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09668415784835815
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.531927764415741
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07770110666751862
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1336565762758255
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13923533260822296
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07019886374473572
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.0922752320766449
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1998460739850998
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10810969769954681
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1597507894039154
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13752290606498718
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17800679802894592
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09155716747045517
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13975770771503448
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.17293165624141693
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1506553739309311
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11100079864263535
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1209062710404396
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11403788626194
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09938068687915802
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08966431021690369
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19701561331748962
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14496053755283356
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12212471663951874
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11603815853595734
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11079473793506622
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09602216631174088
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10955972224473953
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18552932143211365
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10466835647821426
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08872094750404358
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11914355307817459
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11393460631370544
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17054107785224915
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17833635210990906
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18836984038352966
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09398829191923141
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1091306209564209
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1482839733362198
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15131793916225433
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10943441092967987
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14220841228961945
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15664343535900116
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1316956728696823
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1103348508477211
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13234691321849823
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14010165631771088
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5375996828079224
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12530726194381714
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10352157056331635
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1540534794330597
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11208216100931168
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12645293772220612
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13789406418800354
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10889893770217896
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1187538206577301
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15643614530563354
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09039676934480667
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16508011519908905
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1451924592256546
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11915513873100281
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.18647818267345428
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13541720807552338
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1054530218243599
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13685521483421326
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11618708819150925
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11337012052536011
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10769765824079514
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.0926242545247078
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14260831475257874
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12707194685935974
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15204554796218872
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10430889576673508
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17206618189811707
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.06650111079216003
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09702649712562561
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1322663575410843
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1477627158164978
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09940709918737411
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1317930966615677
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15745213627815247
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15379297733306885
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09658379852771759
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11924223601818085
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14370785653591156
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10908804833889008
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1212773472070694
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09911864250898361
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12599414587020874
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10190143436193466
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5431250929832458
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10426918417215347
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.179467111825943
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5343270897865295
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09095534682273865
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18702220916748047
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1019485741853714
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.166683167219162
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18054364621639252
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10665088891983032
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11469894647598267
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08814863115549088
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16062034666538239
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09909622371196747
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11520453542470932
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11532887816429138
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1055372878909111
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10485894232988358
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11761065572500229
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07918230444192886
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14085938036441803
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12191648781299591
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11797072738409042
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09500288963317871
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11779942363500595
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07612304389476776
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1493755728006363
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11427931487560272
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11989500373601913
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17198291420936584
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09888793528079987
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1324162781238556
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11666444689035416
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5369110107421875
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08806339651346207
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1457918882369995
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19186803698539734
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07695326954126358
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1418156921863556
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15929852426052094
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13070519268512726
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.095511794090271
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13113555312156677
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10243073850870132
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1022278368473053
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09648793935775757
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09314554929733276
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12004836648702621
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14690449833869934
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5426856279373169
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1415863186120987
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14979232847690582
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12248140573501587
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10201065987348557
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08974694460630417
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09087735414505005
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11883321404457092
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10976439714431763
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07432978600263596
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08172176778316498
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15111544728279114
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16975504159927368
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11861332505941391
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08883175253868103
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12322451919317245
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11433395743370056
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1562442034482956
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13893386721611023
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09777466952800751
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15349800884723663
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1345323771238327
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17527621984481812
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1272452473640442
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08877955377101898
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08662427216768265
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17261801660060883
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14949709177017212
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.182574063539505
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16567020118236542
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07680477946996689
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1698518991470337
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1262182742357254
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09340877830982208
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09757906198501587
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09718503803014755
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09989680349826813
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1876552700996399
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09702412039041519
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13826490938663483
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12209922075271606
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17344991862773895
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10168164223432541
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09459465742111206
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1104554533958435
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12248397618532181
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5416579246520996
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1083063930273056
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07415207475423813
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08556031435728073
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16727735102176666
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09739263355731964
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08425482362508774
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11307714134454727
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09128383547067642
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11253383010625839
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16332551836967468
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.0862295851111412
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09501931071281433
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14489540457725525
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18202117085456848
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1583918184041977
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12279688566923141
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09666797518730164
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5364332795143127
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10898693650960922
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10999040305614471
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16871829330921173
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12204066663980484
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13333502411842346
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.083746038377285
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08661491423845291
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13538089394569397
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.18099240958690643
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1725713163614273
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10895903408527374
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.20722796022891998
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14778271317481995
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15502391755580902
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12047526240348816
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12885843217372894
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12915660440921783
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15265391767024994
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14855562150478363
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15626433491706848
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10924705117940903
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09098850935697556
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12457618117332458
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1461593508720398
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09055064618587494
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14156246185302734
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17261438071727753
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08455438166856766
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.0885200947523117
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17100609838962555
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1263171285390854
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14861111342906952
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09279854595661163
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11801078170537949
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.18274110555648804
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14270266890525818
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09513212740421295
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11443819850683212
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.0932077094912529
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1039806380867958
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11245381832122803
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12950032949447632
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08893752098083496
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11517517268657684
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17345696687698364
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09557469934225082
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10865458101034164
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16643953323364258
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10638437420129776
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.07874709367752075
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16751724481582642
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10630591213703156
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12518340349197388
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09739935398101807
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.06628156453371048
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09238575398921967
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14617696404457092
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17199109494686127
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11308643966913223
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08019312471151352
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.11758067458868027
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13084232807159424
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14424048364162445
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1709546446800232
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11216294765472412
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13099120557308197
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11079800873994827
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17370562255382538
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17786484956741333
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08015573024749756
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1159718930721283
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13161255419254303
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09758459776639938
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08978243917226791
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10809512436389923
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1646125763654709
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.0976826399564743
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12070289999246597
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.14524194598197937
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11890029907226562
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13980600237846375
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13903900980949402
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1106586828827858
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12866896390914917
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5445939302444458
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10611017048358917
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10679405927658081
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14534655213356018
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1222911849617958
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10320306569337845
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08958779275417328
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10439559072256088
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.13277186453342438
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08489401638507843
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17047326266765594
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1063251867890358
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.08813099563121796
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16677364706993103
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.14172197878360748
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10917794704437256
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1799834966659546
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12688377499580383
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11833050101995468
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.105370432138443
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1320415884256363
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13199442625045776
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1031729131937027
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10842360556125641
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.5432814359664917
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15837498009204865
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.19530081748962402
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12286826968193054
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1424264758825302
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1852753758430481
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10833170264959335
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1410154402256012
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12565292418003082
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09376350045204163
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08801884204149246
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15602782368659973
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12425989657640457
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.16860832273960114
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.5406515598297119
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.169740691781044
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12936079502105713
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09778903424739838
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11476782709360123
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1183793768286705
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09532815963029861
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13434642553329468
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13560344278812408
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1196250393986702
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08901429176330566
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1513647884130478
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08350744843482971
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15371520817279816
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.07438196241855621
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09372221678495407
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10096688568592072
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09097860753536224
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1267901211977005
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1139693558216095
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16362984478473663
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11895739287137985
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10155082494020462
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.09446366876363754
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.09610029309988022
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15460631251335144
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.10044562816619873
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.0930086225271225
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1326213926076889
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1269259750843048
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.16209805011749268
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10069043189287186
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.0984426885843277
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.13837593793869019
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.17514602839946747
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.15281860530376434
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.12214772403240204
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.08930183947086334
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.1524629443883896
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.11315499246120453
+    },
+    {
+      "source": "data/CoT/MATH_train.json",
+      "hfer": 0.15307362377643585
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.12731565535068512
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.10240870714187622
+    },
+    {
+      "source": "data/PoT/MATH_train.json",
+      "hfer": 0.1161143109202385
+    }
+  ]
+}

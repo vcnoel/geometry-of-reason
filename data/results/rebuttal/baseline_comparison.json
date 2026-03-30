@@ -1,0 +1,125 @@
+{
+  "n_proofs": 454,
+  "n_valid": 193,
+  "n_invalid": 261,
+  "per_signal": [
+    {
+      "signal": "hfer_L30",
+      "cohen_d": -2.998,
+      "auc": 0.962,
+      "accuracy": 0.9405,
+      "valid_mean": 0.1695,
+      "invalid_mean": 0.3332
+    },
+    {
+      "signal": "hfer_L24",
+      "cohen_d": -2.828,
+      "auc": 0.951,
+      "accuracy": 0.9383,
+      "valid_mean": 0.0959,
+      "invalid_mean": 0.2756
+    },
+    {
+      "signal": "fiedler_L30",
+      "cohen_d": 0.814,
+      "auc": 0.715,
+      "accuracy": 0.6762,
+      "valid_mean": 0.552,
+      "invalid_mean": 0.5337
+    },
+    {
+      "signal": "smoothness_L30",
+      "cohen_d": 2.272,
+      "auc": 0.934,
+      "accuracy": 0.8987,
+      "valid_mean": 0.8453,
+      "invalid_mean": 0.7879
+    },
+    {
+      "signal": "spectral_entropy_L30",
+      "cohen_d": 1.155,
+      "auc": 0.806,
+      "accuracy": 0.7577,
+      "valid_mean": 2.7029,
+      "invalid_mean": 2.5679
+    },
+    {
+      "signal": "mean_logprob",
+      "cohen_d": -3.183,
+      "auc": 0.979,
+      "accuracy": 0.9427,
+      "valid_mean": -2.3262,
+      "invalid_mean": -1.0514
+    },
+    {
+      "signal": "mean_token_entropy",
+      "cohen_d": 2.857,
+      "auc": 0.963,
+      "accuracy": 0.9273,
+      "valid_mean": 2.1584,
+      "invalid_mean": 1.1521
+    },
+    {
+      "signal": "max_token_entropy",
+      "cohen_d": 1.697,
+      "auc": 0.876,
+      "accuracy": 0.8921,
+      "valid_mean": 9.3778,
+      "invalid_mean": 9.3778
+    },
+    {
+      "signal": "var_token_entropy",
+      "cohen_d": 2.543,
+      "auc": 0.943,
+      "accuracy": 0.9119,
+      "valid_mean": 3.6615,
+      "invalid_mean": 2.1897
+    },
+    {
+      "signal": "perplexity",
+      "cohen_d": 2.079,
+      "auc": 0.979,
+      "accuracy": 0.9427,
+      "valid_mean": 11.708,
+      "invalid_mean": 2.9972
+    },
+    {
+      "signal": "proof_length",
+      "cohen_d": -2.41,
+      "auc": 0.957,
+      "accuracy": 0.9383,
+      "valid_mean": 57.0777,
+      "invalid_mean": 167.1188
+    }
+  ],
+  "correlations_with_hfer": {
+    "mean_logprob": {
+      "pearson_r": 0.9259,
+      "pearson_p": 2.979412717201507e-193,
+      "spearman_r": 0.8827,
+      "spearman_p": 2.3361159505747468e-150
+    },
+    "mean_token_entropy": {
+      "pearson_r": -0.9312,
+      "pearson_p": 2.8340670991404143e-200,
+      "spearman_r": -0.8944,
+      "spearman_p": 4.933818454427862e-160
+    },
+    "perplexity": {
+      "pearson_r": -0.8189,
+      "pearson_p": 4.680785202036165e-111,
+      "spearman_r": -0.8827,
+      "spearman_p": 2.3361159505747468e-150
+    },
+    "proof_length": {
+      "pearson_r": 0.8991,
+      "pearson_p": 3.1003168231541776e-164,
+      "spearman_r": 0.9168,
+      "spearman_p": 2.6451828071430744e-182
+    }
+  },
+  "partial_correlation": {
+    "r": -0.1893,
+    "p": 4.943616447383839e-05
+  }
+}

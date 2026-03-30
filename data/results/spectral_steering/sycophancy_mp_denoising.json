@@ -1,0 +1,18 @@
+{
+  "beta_1.0": {
+    "sycophancy_rate": 25.8,
+    "hfer_mean": 0.095
+  },
+  "beta_0.5": {
+    "sycophancy_rate": 20.6,
+    "hfer_mean": 0.093
+  },
+  "beta_0.1": {
+    "sycophancy_rate": 13.4,
+    "hfer_mean": 0.088
+  },
+  "beta_0.0": {
+    "sycophancy_rate": 11.1,
+    "hfer_mean": 0.085
+  }
+}

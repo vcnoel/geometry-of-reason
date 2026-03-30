@@ -1,0 +1,8 @@
+{
+  "n_samples": 454,
+  "n_features": 128,
+  "pca_95pct_components": 31,
+  "best_k": 3,
+  "silhouette": 0.321,
+  "method": "t-SNE"
+}

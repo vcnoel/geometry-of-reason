@@ -1,0 +1,242 @@
+[
+  {
+    "file": "aime_1983_p9.lean",
+    "label": "valid",
+    "hfer_base": 0.09044752269983292,
+    "hfer_steered": 0.08121974766254425
+  },
+  {
+    "file": "aime_1984_p1.lean",
+    "label": "valid",
+    "hfer_base": 0.2510223984718323,
+    "hfer_steered": 0.2285504937171936
+  },
+  {
+    "file": "aime_1984_p15.lean",
+    "label": "valid",
+    "hfer_base": 0.2226134091615677,
+    "hfer_steered": 0.2096068412065506
+  },
+  {
+    "file": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i.lean",
+    "label": "valid",
+    "hfer_base": 0.049637265503406525,
+    "hfer_steered": 0.04456634819507599
+  },
+  {
+    "file": "algebra_2rootsintpoly_am10tap11eqasqpam110.lean",
+    "label": "valid",
+    "hfer_base": 0.03692467883229256,
+    "hfer_steered": 0.03635077178478241
+  },
+  {
+    "file": "algebra_2rootspoly_apatapbeq2asqp2ab.lean",
+    "label": "valid",
+    "hfer_base": 0.06897105276584625,
+    "hfer_steered": 0.04099644720554352
+  },
+  {
+    "file": "algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta.lean",
+    "label": "valid",
+    "hfer_base": 0.06039268895983696,
+    "hfer_steered": 0.06553687155246735
+  },
+  {
+    "file": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x.lean",
+    "label": "valid",
+    "hfer_base": 0.28948482871055603,
+    "hfer_steered": 0.26984599232673645
+  },
+  {
+    "file": "algebra_manipexpr_2erprsqpesqeqnrpnesq.lean",
+    "label": "valid",
+    "hfer_base": 0.04384436458349228,
+    "hfer_steered": 0.04184666648507118
+  },
+  {
+    "file": "algebra_manipexpr_apbeq2cceqiacpbceqm2.lean",
+    "label": "valid",
+    "hfer_base": 0.04744088277220726,
+    "hfer_steered": 0.0462605319917202
+  },
+  {
+    "file": "algebra_others_exirrpowirrrat.lean",
+    "label": "valid",
+    "hfer_base": 0.18499357998371124,
+    "hfer_steered": 0.1736646443605423
+  },
+  {
+    "file": "algebra_sqineq_2at2pclta2c2p41pc.lean",
+    "label": "valid",
+    "hfer_base": 0.06530347466468811,
+    "hfer_steered": 0.06450546532869339
+  },
+  {
+    "file": "algebra_sqineq_2unitcircatblt1.lean",
+    "label": "valid",
+    "hfer_base": 0.07217518240213394,
+    "hfer_steered": 0.06380729377269745
+  },
+  {
+    "file": "algebra_sqineq_36azm9asqle36zsq.lean",
+    "label": "valid",
+    "hfer_base": 0.06037309393286705,
+    "hfer_steered": 0.061113566160202026
+  },
+  {
+    "file": "algebra_sqineq_4bap1lt4bsqpap1sq.lean",
+    "label": "valid",
+    "hfer_base": 0.05845347046852112,
+    "hfer_steered": 0.0533602312207222
+  },
+  {
+    "file": "algebra_sqineq_at2malt1.lean",
+    "label": "valid",
+    "hfer_base": 0.04365186020731926,
+    "hfer_steered": 0.039457522332668304
+  },
+  {
+    "file": "algebra_sqineq_unitcircatbpamblt1.lean",
+    "label": "valid",
+    "hfer_base": 0.05336637794971466,
+    "hfer_steered": 0.04153777286410332
+  },
+  {
+    "file": "amc12_2000_p11.lean",
+    "label": "valid",
+    "hfer_base": 0.0514543354511261,
+    "hfer_steered": 0.04124372452497482
+  },
+  {
+    "file": "amc12_2000_p5.lean",
+    "label": "valid",
+    "hfer_base": 0.06126754730939865,
+    "hfer_steered": 0.05462834611535072
+  },
+  {
+    "file": "amc12_2000_p6.lean",
+    "label": "valid",
+    "hfer_base": 0.10586068034172058,
+    "hfer_steered": 0.09637244045734406
+  },
+  {
+    "file": "aimeII_2001_p3_2.lean",
+    "label": "invalid",
+    "hfer_base": 0.19787456095218658,
+    "hfer_steered": 0.18979357182979584
+  },
+  {
+    "file": "aimeII_2001_p3_8.lean",
+    "label": "invalid",
+    "hfer_base": 0.214730903506279,
+    "hfer_steered": 0.21494276821613312
+  },
+  {
+    "file": "aimeII_2020_p6_3.lean",
+    "label": "invalid",
+    "hfer_base": 0.18583832681179047,
+    "hfer_steered": 0.17472276091575623
+  },
+  {
+    "file": "aimeII_2020_p6_4.lean",
+    "label": "invalid",
+    "hfer_base": 0.22713501751422882,
+    "hfer_steered": 0.2118062973022461
+  },
+  {
+    "file": "aime_1983_p9_6.lean",
+    "label": "invalid",
+    "hfer_base": 0.24606750905513763,
+    "hfer_steered": 0.23457121849060059
+  },
+  {
+    "file": "aime_1983_p9_9.lean",
+    "label": "invalid",
+    "hfer_base": 0.20355024933815002,
+    "hfer_steered": 0.1929875761270523
+  },
+  {
+    "file": "aime_1984_p15_2.lean",
+    "label": "invalid",
+    "hfer_base": 0.3022559881210327,
+    "hfer_steered": 0.28799664974212646
+  },
+  {
+    "file": "aime_1984_p15_8.lean",
+    "label": "invalid",
+    "hfer_base": 0.2981456518173218,
+    "hfer_steered": 0.2836340069770813
+  },
+  {
+    "file": "aime_1984_p15_9.lean",
+    "label": "invalid",
+    "hfer_base": 0.2999621629714966,
+    "hfer_steered": 0.2824251055717468
+  },
+  {
+    "file": "aime_1984_p5_7.lean",
+    "label": "invalid",
+    "hfer_base": 0.18842333555221558,
+    "hfer_steered": 0.17624686658382416
+  },
+  {
+    "file": "aime_1988_p3_0.lean",
+    "label": "invalid",
+    "hfer_base": 0.2220187783241272,
+    "hfer_steered": 0.201655775308609
+  },
+  {
+    "file": "aime_1988_p4_9.lean",
+    "label": "invalid",
+    "hfer_base": 0.19591498374938965,
+    "hfer_steered": 0.18579895794391632
+  },
+  {
+    "file": "aime_1990_p2_6.lean",
+    "label": "invalid",
+    "hfer_base": 0.15823741257190704,
+    "hfer_steered": 0.1475866436958313
+  },
+  {
+    "file": "aime_1996_p5_2.lean",
+    "label": "invalid",
+    "hfer_base": 0.23876194655895233,
+    "hfer_steered": 0.21727187931537628
+  },
+  {
+    "file": "aime_1996_p5_8.lean",
+    "label": "invalid",
+    "hfer_base": 0.22049535810947418,
+    "hfer_steered": 0.2026740461587906
+  },
+  {
+    "file": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i_2.lean",
+    "label": "invalid",
+    "hfer_base": 0.16767717897891998,
+    "hfer_steered": 0.161427304148674
+  },
+  {
+    "file": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i_8.lean",
+    "label": "invalid",
+    "hfer_base": 0.1624452769756317,
+    "hfer_steered": 0.1479855328798294
+  },
+  {
+    "file": "algebra_2rootsintpoly_am10tap11eqasqpam110_0.lean",
+    "label": "invalid",
+    "hfer_base": 0.038286808878183365,
+    "hfer_steered": 0.03681541234254837
+  },
+  {
+    "file": "algebra_2rootsintpoly_am10tap11eqasqpam110_1.lean",
+    "label": "invalid",
+    "hfer_base": 0.20315252244472504,
+    "hfer_steered": 0.20375467836856842
+  },
+  {
+    "file": "algebra_2rootspoly_apatapbeq2asqp2ab_7.lean",
+    "label": "invalid",
+    "hfer_base": 0.04183787479996681,
+    "hfer_steered": 0.04174884781241417
+  }
+]

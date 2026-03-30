@@ -1,0 +1,22 @@
+{
+  "TP": {
+    "count": 174,
+    "cognitive_label": "Correct Confidence",
+    "mean_hfer": 0.0775
+  },
+  "TN": {
+    "count": 252,
+    "cognitive_label": "Correct Skepticism",
+    "mean_hfer": 0.2813
+  },
+  "FP": {
+    "count": 9,
+    "cognitive_label": "Confident Wrongness",
+    "mean_hfer": 0.1143
+  },
+  "FN": {
+    "count": 19,
+    "cognitive_label": "Effortful Correctness",
+    "mean_hfer": 0.2642
+  }
+}

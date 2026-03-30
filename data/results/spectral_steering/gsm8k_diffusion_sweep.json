@@ -1,0 +1,26 @@
+{
+  "tau_-0.5": {
+    "accuracy": 54.2,
+    "hfer_mean": 0.2
+  },
+  "tau_-0.2": {
+    "accuracy": 60.2,
+    "hfer_mean": 0.105
+  },
+  "tau_0.0": {
+    "accuracy": 58.4,
+    "hfer_mean": 0.12
+  },
+  "tau_0.1": {
+    "accuracy": 60.5,
+    "hfer_mean": 0.1
+  },
+  "tau_0.3": {
+    "accuracy": 61.8,
+    "hfer_mean": 0.08
+  },
+  "tau_0.5": {
+    "accuracy": 45.9,
+    "hfer_mean": 0.37
+  }
+}

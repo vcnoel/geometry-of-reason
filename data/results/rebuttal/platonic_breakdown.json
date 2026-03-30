@@ -1,0 +1,225 @@
+{
+  "ref_model": "Llama-3.2-1B",
+  "total_reclaimed": 51,
+  "consolidated_breakdown": [
+    {
+      "category": "Timeout / Computational Limit",
+      "count": 7,
+      "pct": 13.7,
+      "mean_agreement": 5.43
+    },
+    {
+      "category": "Environment / Missing Imports",
+      "count": 14,
+      "pct": 27.5,
+      "mean_agreement": 5.43
+    },
+    {
+      "category": "Semantically Valid (minor issues)",
+      "count": 19,
+      "pct": 37.3,
+      "mean_agreement": 4.37
+    },
+    {
+      "category": "Syntax / Version Issues",
+      "count": 4,
+      "pct": 7.8,
+      "mean_agreement": 3.25
+    },
+    {
+      "category": "Incomplete Proof",
+      "count": 7,
+      "pct": 13.7,
+      "mean_agreement": 5.29
+    }
+  ],
+  "detailed_breakdown": [
+    {
+      "category": "Environment (simple tactic failure)",
+      "count": 14,
+      "pct": 27.5,
+      "mean_agreement": 5.43
+    },
+    {
+      "category": "Semantic (correct structure, minor issues)",
+      "count": 14,
+      "pct": 27.5,
+      "mean_agreement": 4.79
+    },
+    {
+      "category": "Incomplete (sorry/admit)",
+      "count": 7,
+      "pct": 13.7,
+      "mean_agreement": 5.29
+    },
+    {
+      "category": "Timeout (computational)",
+      "count": 7,
+      "pct": 13.7,
+      "mean_agreement": 5.43
+    },
+    {
+      "category": "Semantic (multi-tactic, likely valid)",
+      "count": 5,
+      "pct": 9.8,
+      "mean_agreement": 3.2
+    },
+    {
+      "category": "Syntax/incomplete",
+      "count": 4,
+      "pct": 7.8,
+      "mean_agreement": 3.25
+    }
+  ],
+  "cross_model_agreement": {
+    "mathd_numbertheory_30_9.lean": 7,
+    "numbertheory_2dvd4expn_2.lean": 7,
+    "induction_divisibility_3divnto3m2n_7.lean": 7,
+    "mathd_algebra_462_9.lean": 6,
+    "numbertheory_2dvd4expn_0.lean": 6,
+    "mathd_algebra_123_0.lean": 6,
+    "mathd_numbertheory_221_7.lean": 6,
+    "amc12a_2009_p2_7.lean": 6,
+    "mathd_algebra_462_4.lean": 6,
+    "mathd_algebra_31_9.lean": 6,
+    "mathd_algebra_132_8.lean": 6,
+    "mathd_numbertheory_301_0.lean": 6,
+    "algebra_2rootspoly_apatapbeq2asqp2ab_7.lean": 6,
+    "mathd_numbertheory_132_9.lean": 6,
+    "mathd_algebra_393_4.lean": 6,
+    "mathd_algebra_132_9.lean": 6,
+    "mathd_numbertheory_403_3.lean": 6,
+    "induction_divisibility_3divnto3m2n_0.lean": 6,
+    "mathd_algebra_190_5.lean": 6,
+    "algebra_2rootsintpoly_am10tap11eqasqpam110_0.lean": 6,
+    "mathd_numbertheory_961_9.lean": 6,
+    "mathd_numbertheory_92_9.lean": 6,
+    "mathd_algebra_15_5.lean": 6,
+    "mathd_numbertheory_269_0.lean": 6,
+    "mathd_algebra_55_1.lean": 5,
+    "mathd_numbertheory_102_0.lean": 5,
+    "mathd_numbertheory_156_9.lean": 5,
+    "mathd_numbertheory_335_7.lean": 5,
+    "induction_seq_mul2pnp1_5.lean": 5,
+    "mathd_algebra_214_0.lean": 5,
+    "mathd_algebra_568_4.lean": 5,
+    "induction_sum2kp1npqsqm1_2.lean": 5,
+    "mathd_algebra_455_8.lean": 5,
+    "algebra_binomnegdiscrineq_10alt28asqp1_8.lean": 5,
+    "mathd_algebra_10_3.lean": 5,
+    "mathd_numbertheory_200_3.lean": 5,
+    "amc12a_2010_p22_7.lean": 5,
+    "mathd_algebra_15_7.lean": 4,
+    "mathd_algebra_393_8.lean": 4,
+    "mathd_algebra_15_4.lean": 4,
+    "algebra_sqineq_2unitcircatblt1_9.lean": 4,
+    "mathd_algebra_480_3.lean": 3,
+    "induction_seq_mul2pnp1_9.lean": 3,
+    "amc12a_2002_p1_0.lean": 3,
+    "mathd_algebra_126_5.lean": 3,
+    "mathd_algebra_15_6.lean": 3,
+    "mathd_algebra_224_4.lean": 3,
+    "mathd_algebra_123_8.lean": 3,
+    "mathd_algebra_15_1.lean": 3,
+    "numbertheory_sqmod3in01d_9.lean": 3,
+    "mathd_numbertheory_269_5.lean": 2,
+    "mathd_algebra_536_5.lean": 2,
+    "mathd_algebra_126_8.lean": 2,
+    "induction_sum_1oktkp1_4.lean": 2,
+    "mathd_algebra_159_6.lean": 2,
+    "mathd_algebra_10_8.lean": 2,
+    "algebra_amgm_prod1toneq1_sum1tongeqn_1.lean": 1,
+    "mathd_algebra_422_7.lean": 1,
+    "amc12a_2003_p25_8.lean": 1,
+    "mathd_algebra_51_5.lean": 1,
+    "algebra_sqineq_36azm9asqle36zsq_1.lean": 1,
+    "mathd_numbertheory_232_1.lean": 1,
+    "mathd_algebra_37_6.lean": 1,
+    "mathd_algebra_22_7.lean": 1,
+    "induction_sum_odd_0.lean": 1,
+    "induction_divisibility_9div10tonm1_0.lean": 1,
+    "numbertheory_2dvd4expn_9.lean": 1,
+    "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4_0.lean": 1,
+    "numbertheory_prmdvsneqnsqmodpeq0_5.lean": 1,
+    "mathd_algebra_55_6.lean": 1,
+    "mathd_algebra_11_5.lean": 1,
+    "mathd_algebra_181_6.lean": 1,
+    "mathd_algebra_151_8.lean": 1,
+    "amc12a_2003_p1_8.lean": 1,
+    "amc12_2000_p5_1.lean": 1,
+    "mathd_algebra_35_2.lean": 1,
+    "algebra_amgm_sumasqdivbsqgeqsumbdiva_2.lean": 1,
+    "mathd_algebra_126_0.lean": 1,
+    "mathd_numbertheory_64_8.lean": 1,
+    "algebra_sqineq_36azm9asqle36zsq_8.lean": 1
+  },
+  "agreement_distribution": {
+    "2": 6,
+    "3": 9,
+    "1": 24,
+    "6": 21,
+    "5": 13,
+    "7": 3,
+    "4": 4
+  },
+  "per_model_summary": [
+    {
+      "model": "Llama-3.2-1B",
+      "count": 51,
+      "mean_hfer": 0.0484
+    },
+    {
+      "model": "Llama-3.2-3B",
+      "count": 41,
+      "mean_hfer": 0.099
+    },
+    {
+      "model": "Llama-3.1-8B",
+      "count": 39,
+      "mean_hfer": 0.0924
+    },
+    {
+      "model": "Mistral-7B",
+      "count": 36,
+      "mean_hfer": 0.1142
+    },
+    {
+      "model": "Phi-3.5-mini",
+      "count": 51,
+      "mean_hfer": 0.0608
+    },
+    {
+      "model": "Qwen2.5-0.5B",
+      "count": 40,
+      "mean_hfer": 0.0779
+    },
+    {
+      "model": "Qwen2.5-7B",
+      "count": 33,
+      "mean_hfer": 0.0656
+    }
+  ],
+  "examples": [
+    {
+      "category": "Timeout / Computational Limit",
+      "file": "mathd_numbertheory_30_9.lean",
+      "hfer": 0.03834882006049156,
+      "agreement": 7,
+      "excerpt": "import minif2f_import\n\nopen_locale big_operators\nopen_locale real\nopen_locale nat\nopen_locale topological_space\n\ntheorem mathd_numbertheory_30 :\n  (33818^2 + 33819^2 + 33820^2 + 33821^2 + 33822^2) % 1..."
+    },
+    {
+      "category": "Semantically Valid (minor issues)",
+      "file": "induction_divisibility_3divnto3m2n_7.lean",
+      "hfer": 0.044161148369312286,
+      "agreement": 7,
+      "excerpt": "import minif2f_import\n\nopen_locale big_operators\nopen_locale real\nopen_locale nat\nopen_locale topological_space\n\ntheorem induction_divisibility_3divnto3m2n\n  (n : \u2115) :\n  3 \u2223 n^3 + 2 * n :=\nbegin\n\n  in..."
+    },
+    {
+      "category": "Environment / Missing Imports",
+      "file": "mathd_numbertheory_301_0.lean",
+      "hfer": 0.03853974863886833,
+      "agreement": 6,
+      "excerpt": "import minif2f_import\n\nopen_locale big_operators\nopen_locale real\nopen_locale nat\nopen_locale topological_space\n\ntheorem mathd_numbertheory_301\n  (j : \u2115)\n  (h\u2080 : 0 < j) :\n  (3 * (7 * \u2191j + 3)) % 7 = 2 ..."
+    }
+  ]
+}

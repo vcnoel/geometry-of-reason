@@ -1,0 +1,37 @@
+[
+  {
+    "method": "Linear Probe",
+    "test_acc": 0.9121,
+    "params": 4097,
+    "train_data": 272,
+    "train_time": "0.0s"
+  },
+  {
+    "method": "Random Forest (PCA-100)",
+    "test_acc": 0.9121,
+    "params": "~100k trees",
+    "train_data": 272,
+    "train_time": "0.1s"
+  },
+  {
+    "method": "MLP (256-dim)",
+    "test_acc": 0.9231,
+    "params": "~1049k",
+    "train_data": 272,
+    "train_time": "0.8s"
+  },
+  {
+    "method": "Spectral (calibrated)",
+    "test_acc": 0.941,
+    "params": 1,
+    "train_data": "50 calibration",
+    "train_time": "0s"
+  },
+  {
+    "method": "Spectral (nested CV)",
+    "test_acc": 0.859,
+    "params": 1,
+    "train_data": "0 (unsupervised)",
+    "train_time": "0s"
+  }
+]

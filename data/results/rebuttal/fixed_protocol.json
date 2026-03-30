@@ -1,0 +1,8 @@
+{
+  "fixed_L24_acc_mean": 0.9183,
+  "fixed_L24_acc_std": 0.0235,
+  "best_L30_acc": 0.941,
+  "gap": 0.0227,
+  "n_calib": 50,
+  "n_repeats": 100
+}

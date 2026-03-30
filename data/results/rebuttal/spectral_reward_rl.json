@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 0,
+    "hallucin_hfer_mean": 0,
+    "valid_hfer_mean": 0.15420774430036543,
+    "safety_gap": 0
+  },
+  {
+    "seed": 1,
+    "hallucin_hfer_mean": 0.4451954960823059,
+    "valid_hfer_mean": 0.17016251772642135,
+    "safety_gap": 0.2750329783558846
+  },
+  {
+    "seed": 2,
+    "hallucin_hfer_mean": 0,
+    "valid_hfer_mean": 0.18271613880991935,
+    "safety_gap": 0
+  },
+  {
+    "seed": 3,
+    "hallucin_hfer_mean": 0.431196391582489,
+    "valid_hfer_mean": 0.1646113234758377,
+    "safety_gap": 0.2665850681066513
+  },
+  {
+    "seed": 4,
+    "hallucin_hfer_mean": 0.4338504672050476,
+    "valid_hfer_mean": 0.16839633479714394,
+    "safety_gap": 0.26545413240790366
+  },
+  {
+    "seed": 5,
+    "hallucin_hfer_mean": 0,
+    "valid_hfer_mean": 0.16551012068986892,
+    "safety_gap": 0
+  },
+  {
+    "seed": 6,
+    "hallucin_hfer_mean": 0,
+    "valid_hfer_mean": 0.17247424453496932,
+    "safety_gap": 0
+  },
+  {
+    "seed": 7,
+    "hallucin_hfer_mean": 0.4338504672050476,
+    "valid_hfer_mean": 0.15883388072252275,
+    "safety_gap": 0.27501658648252486
+  },
+  {
+    "seed": 8,
+    "hallucin_hfer_mean": 0.431196391582489,
+    "valid_hfer_mean": 0.16791865080595017,
+    "safety_gap": 0.26327774077653887
+  },
+  {
+    "seed": 9,
+    "hallucin_hfer_mean": 0,
+    "valid_hfer_mean": 0.1620483712852001,
+    "safety_gap": 0
+  }
+]

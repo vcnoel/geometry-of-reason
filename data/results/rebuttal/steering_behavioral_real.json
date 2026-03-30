@@ -1,0 +1,702 @@
+[
+  {
+    "theorem": "mathd_numbertheory_45_7.lean",
+    "base_hfer": 0.5234653353691101,
+    "steered_hfer": 0.011134890626554391,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_102_2.lean",
+    "base_hfer": 0.5118334293365479,
+    "steered_hfer": 0.013521893786386607,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1983_p9_6.lean",
+    "base_hfer": 0.4463635981082916,
+    "steered_hfer": 0.008273784752526426,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1984_p15_8.lean",
+    "base_hfer": 0.4451954960823059,
+    "steered_hfer": 0.013699245040959285,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12_2001_p2_6.lean",
+    "base_hfer": 0.4397851824760437,
+    "steered_hfer": 0.008087216583645121,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1984_p15_2.lean",
+    "base_hfer": 0.4338504672050476,
+    "steered_hfer": 0.018423263384883815,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1984_p15_9.lean",
+    "base_hfer": 0.431196391582489,
+    "steered_hfer": 0.012914972959555588,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_370_7.lean",
+    "base_hfer": 0.42952749133110046,
+    "steered_hfer": 0.01807883643448863,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_15_3.lean",
+    "base_hfer": 0.42750486731529236,
+    "steered_hfer": 0.012942649445667757,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_77_9.lean",
+    "base_hfer": 0.4184986352920532,
+    "steered_hfer": 0.025230641194964157,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_232_3.lean",
+    "base_hfer": 0.4182242453098297,
+    "steered_hfer": 0.020366413867308805,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2009_p5_9.lean",
+    "base_hfer": 0.41764572262763977,
+    "steered_hfer": 0.015061172057730625,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_43_3.lean",
+    "base_hfer": 0.41513341665267944,
+    "steered_hfer": 0.017679520011191382,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_sqineq_36azm9asqle36zsq_0.lean",
+    "base_hfer": 0.4148046672344208,
+    "steered_hfer": 0.017203068475551378,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_232_4.lean",
+    "base_hfer": 0.4147108495235443,
+    "steered_hfer": 0.01640686791210177,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "induction_divisibility_9div10tonm1_7.lean",
+    "base_hfer": 0.4082074463367462,
+    "steered_hfer": -0.01593903694717093,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_2rootsintpoly_am10tap11eqasqpam110_1.lean",
+    "base_hfer": 0.40311115980148315,
+    "steered_hfer": 0.009779548670690467,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1962_p4_0.lean",
+    "base_hfer": 0.40041202306747437,
+    "steered_hfer": 0.027112219707808794,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_sqineq_36azm9asqle36zsq_9.lean",
+    "base_hfer": 0.3990475535392761,
+    "steered_hfer": 0.026792624642503596,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_102_4.lean",
+    "base_hfer": 0.397409051656723,
+    "steered_hfer": 0.02257903972750842,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_96_1.lean",
+    "base_hfer": 0.3960031569004059,
+    "steered_hfer": 0.012516957697520094,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_116_4.lean",
+    "base_hfer": 0.39599817991256714,
+    "steered_hfer": 0.008539016302997136,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1983_p9_9.lean",
+    "base_hfer": 0.39571717381477356,
+    "steered_hfer": 0.014173435668604554,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x_3.lean",
+    "base_hfer": 0.39243683218955994,
+    "steered_hfer": 0.017022298264029675,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2008_p4_0.lean",
+    "base_hfer": 0.3910572826862335,
+    "steered_hfer": 0.028850682151887644,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1978_p5_7.lean",
+    "base_hfer": 0.38993513584136963,
+    "steered_hfer": 0.02260801215770937,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_568_3.lean",
+    "base_hfer": 0.389153391122818,
+    "steered_hfer": 0.031037805856679878,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2017_p2_1.lean",
+    "base_hfer": 0.38797956705093384,
+    "steered_hfer": 0.02674847805752926,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2002_p21_0.lean",
+    "base_hfer": 0.3877297639846802,
+    "steered_hfer": 0.022787251261705214,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aimeII_2020_p6_4.lean",
+    "base_hfer": 0.3869541585445404,
+    "steered_hfer": 0.024457012598143434,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_739_1.lean",
+    "base_hfer": 0.3856019377708435,
+    "steered_hfer": 0.027089015707649447,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_109_3.lean",
+    "base_hfer": 0.3849290609359741,
+    "steered_hfer": 0.03659498117611395,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12_2000_p15_3.lean",
+    "base_hfer": 0.3838655948638916,
+    "steered_hfer": -0.00035704993889976866,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_405_2.lean",
+    "base_hfer": 0.38385769724845886,
+    "steered_hfer": 0.018154421088273892,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_119_0.lean",
+    "base_hfer": 0.3816215991973877,
+    "steered_hfer": 0.00982096069221492,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2009_p9_8.lean",
+    "base_hfer": 0.38037607073783875,
+    "steered_hfer": 0.019430787939321053,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1990_p2_6.lean",
+    "base_hfer": 0.37956365942955017,
+    "steered_hfer": 0.038346095557386044,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_55_2.lean",
+    "base_hfer": 0.37827566266059875,
+    "steered_hfer": 0.03300895103270087,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_101_7.lean",
+    "base_hfer": 0.37823766469955444,
+    "steered_hfer": 0.02188743569936306,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2002_p12_1.lean",
+    "base_hfer": 0.37773895263671875,
+    "steered_hfer": 0.026461657181828958,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_188_4.lean",
+    "base_hfer": 0.3764802813529968,
+    "steered_hfer": 0.036067121804224174,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2003_p25_2.lean",
+    "base_hfer": 0.37542709708213806,
+    "steered_hfer": 0.03781564420537263,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_405_9.lean",
+    "base_hfer": 0.37531623244285583,
+    "steered_hfer": 0.021476048487088544,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_149_1.lean",
+    "base_hfer": 0.37488415837287903,
+    "steered_hfer": 0.026822569911683268,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_668_0.lean",
+    "base_hfer": 0.3746338188648224,
+    "steered_hfer": 0.009004225849269801,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_102_6.lean",
+    "base_hfer": 0.3739762604236603,
+    "steered_hfer": 0.028960540524569554,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1978_p5_9.lean",
+    "base_hfer": 0.37390369176864624,
+    "steered_hfer": 0.011799975365679982,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2009_p25_3.lean",
+    "base_hfer": 0.37388962507247925,
+    "steered_hfer": -0.013805184703182352,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12_2000_p15_5.lean",
+    "base_hfer": 0.3738531172275543,
+    "steered_hfer": -0.000371933920959476,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_28_2.lean",
+    "base_hfer": 0.3729916214942932,
+    "steered_hfer": 0.031213712287653742,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_binomnegdiscrineq_10alt28asqp1_7.lean",
+    "base_hfer": 0.37288233637809753,
+    "steered_hfer": 0.03610661605027237,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_37_6.lean",
+    "base_hfer": 0.37239837646484375,
+    "steered_hfer": 0.04091899669973903,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1996_p5_2.lean",
+    "base_hfer": 0.3722067177295685,
+    "steered_hfer": 0.025804105857614213,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3_0.lean",
+    "base_hfer": 0.3716108500957489,
+    "steered_hfer": 0.024382920109153022,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2003_p1_0.lean",
+    "base_hfer": 0.3708455264568329,
+    "steered_hfer": 0.02288499308700347,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_binomnegdiscrineq_10alt28asqp1_5.lean",
+    "base_hfer": 0.3707889914512634,
+    "steered_hfer": 0.03681053746560242,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2009_p2_6.lean",
+    "base_hfer": 0.3676184415817261,
+    "steered_hfer": 0.04125362978878772,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_sqineq_36azm9asqle36zsq_8.lean",
+    "base_hfer": 0.36743441224098206,
+    "steered_hfer": 0.03727912217565192,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_73_2.lean",
+    "base_hfer": 0.3660147488117218,
+    "steered_hfer": 0.03797659962674256,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_412_1.lean",
+    "base_hfer": 0.3659384250640869,
+    "steered_hfer": 0.025379983717238354,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_405_7.lean",
+    "base_hfer": 0.3657032549381256,
+    "steered_hfer": 0.0167491435155223,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12b_2021_p21_6.lean",
+    "base_hfer": 0.3652304410934448,
+    "steered_hfer": 0.03717237856088554,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_155_5.lean",
+    "base_hfer": 0.36467620730400085,
+    "steered_hfer": 0.03496284839460189,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2017_p7_5.lean",
+    "base_hfer": 0.36352455615997314,
+    "steered_hfer": 0.026340124546095217,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_155_4.lean",
+    "base_hfer": 0.3624158799648285,
+    "steered_hfer": -0.012405287671485734,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1993_p5_3.lean",
+    "base_hfer": 0.3622133135795593,
+    "steered_hfer": 0.036374270153518476,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2008_p4_6.lean",
+    "base_hfer": 0.3619784116744995,
+    "steered_hfer": 0.02234016827243489,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_101_3.lean",
+    "base_hfer": 0.3616311848163605,
+    "steered_hfer": 0.023631086517036652,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2017_p7_2.lean",
+    "base_hfer": 0.3609054982662201,
+    "steered_hfer": 0.024997433069155903,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1966_p4_1.lean",
+    "base_hfer": 0.36059054732322693,
+    "steered_hfer": 0.029738469128391322,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1973_p3_1.lean",
+    "base_hfer": 0.3605376183986664,
+    "steered_hfer": 0.030159100146299612,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2002_p21_7.lean",
+    "base_hfer": 0.36002233624458313,
+    "steered_hfer": -0.016560428361522626,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2009_p5_1.lean",
+    "base_hfer": 0.35917988419532776,
+    "steered_hfer": 0.027904540295064326,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_530_2.lean",
+    "base_hfer": 0.35912221670150757,
+    "steered_hfer": 0.03293838001195109,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2021_p7_6.lean",
+    "base_hfer": 0.35836470127105713,
+    "steered_hfer": 0.02446934426600685,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_251_0.lean",
+    "base_hfer": 0.3581528961658478,
+    "steered_hfer": 0.03483394688892375,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_110_6.lean",
+    "base_hfer": 0.3579837381839752,
+    "steered_hfer": 0.026226274058461584,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_405_5.lean",
+    "base_hfer": 0.35691341757774353,
+    "steered_hfer": 0.0008417543469543364,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_169_3.lean",
+    "base_hfer": 0.35652610659599304,
+    "steered_hfer": 0.045848785826389064,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_629_1.lean",
+    "base_hfer": 0.3564488887786865,
+    "steered_hfer": 0.02946666285065259,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2016_p2_5.lean",
+    "base_hfer": 0.3561268150806427,
+    "steered_hfer": 0.024924130132700967,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x_2.lean",
+    "base_hfer": 0.35592958331108093,
+    "steered_hfer": 0.01877926439713434,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1993_p5_6.lean",
+    "base_hfer": 0.3556792736053467,
+    "steered_hfer": -0.0019651310104978016,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "induction_divisibility_3divnto3m2n_2.lean",
+    "base_hfer": 0.3542347252368927,
+    "steered_hfer": 0.037576838562496086,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aimeII_2001_p3_2.lean",
+    "base_hfer": 0.3540984094142914,
+    "steered_hfer": 0.019583177122985938,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "induction_divisibility_3div2tooddnp1_8.lean",
+    "base_hfer": 0.3539859652519226,
+    "steered_hfer": 0.01992074956880014,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "imo_1988_p6_3.lean",
+    "base_hfer": 0.35364991426467896,
+    "steered_hfer": 0.025087938477395474,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2003_p25_8.lean",
+    "base_hfer": 0.35320645570755005,
+    "steered_hfer": -0.01439953648657571,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_245_5.lean",
+    "base_hfer": 0.3531063199043274,
+    "steered_hfer": 0.03369871638120765,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_45_2.lean",
+    "base_hfer": 0.35304439067840576,
+    "steered_hfer": 0.03759458984531418,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aimeII_2020_p6_3.lean",
+    "base_hfer": 0.3530065715312958,
+    "steered_hfer": 0.0021930508932632956,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_149_0.lean",
+    "base_hfer": 0.35240471363067627,
+    "steered_hfer": 0.022822729341742426,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_232_2.lean",
+    "base_hfer": 0.3522059917449951,
+    "steered_hfer": 0.012682153119247287,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "numbertheory_aneqprodakp4_anmsqrtanp1eq2_0.lean",
+    "base_hfer": 0.35216009616851807,
+    "steered_hfer": -0.022422691433191817,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "aime_1984_p5_7.lean",
+    "base_hfer": 0.3520481288433075,
+    "steered_hfer": 0.020246491770527043,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12b_2002_p11_1.lean",
+    "base_hfer": 0.35082703828811646,
+    "steered_hfer": 0.034961437785986274,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "amc12a_2002_p1_1.lean",
+    "base_hfer": 0.3502393662929535,
+    "steered_hfer": 0.021302768075750753,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_327_9.lean",
+    "base_hfer": 0.349704772233963,
+    "steered_hfer": 0.03520746976436421,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_algebra_159_8.lean",
+    "base_hfer": 0.34818482398986816,
+    "steered_hfer": 0.026726050763740586,
+    "base_valid": false,
+    "steered_valid": true
+  },
+  {
+    "theorem": "mathd_numbertheory_335_9.lean",
+    "base_hfer": 0.3479723036289215,
+    "steered_hfer": 0.0415893712519156,
+    "base_valid": false,
+    "steered_valid": true
+  }
+]

@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "n": 30,
+    "k": 8,
+    "model": "meta-llama/Llama-3.2-1B-Instruct"
+  },
+  "summary": {
+    "best_of_8_accuracy": 0.16666666666666666,
+    "random_top1_accuracy": 0.16666666666666666,
+    "improvement": 0.0
+  },
+  "raw": [
+    {
+      "problem": "Find all values of $k$ so that\n\\[x^2 - (k - 3) x - k + 6 > 0\\]for all $x.$",
+      "scores": [
+        0.15697215497493744,
+        0.11104884743690491,
+        0.11964377015829086,
+        0.11488065868616104,
+        0.0908627137541771,
+        0.10908240079879761,
+        0.11737851798534393,
+        0.100876584649086
+      ],
+      "best_idx": 4,
+      "random_idx": 0,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "The graph of the parabola $x = 2y^2 - 6y + 3$ has an $x$-intercept $(a,0)$ and two $y$-intercepts $(0,b)$ and $(0,c)$.  Find $a + b + c$. Please write a program to solve it",
+      "scores": [
+        0.11339256167411804,
+        0.10034819692373276,
+        0.10716906934976578,
+        0.11996728926897049,
+        0.11833928525447845,
+        0.10707544535398483,
+        0.1262706220149994,
+        0.12031135708093643
+      ],
+      "best_idx": 1,
+      "random_idx": 6,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Compute\n\\[\\sum_{n = 2}^\\infty \\frac{4n^3 - n^2 - n + 1}{n^6 - n^5 + n^4 - n^3 + n^2 - n}.\\]",
+      "scores": [
+        0.08494123816490173,
+        0.11502710729837418,
+        0.09358735382556915,
+        0.08350294083356857,
+        0.09900330752134323,
+        0.08804995566606522,
+        0.10783243924379349,
+        0.10025932639837265
+      ],
+      "best_idx": 3,
+      "random_idx": 2,
+      "best_correct": true,
+      "random_correct": true
+    },
+    {
+      "problem": "What is the remainder when the product $1734\\times 5389 \\times 80,\\!607$ is divided by 10?",
+      "scores": [
+        0.09725452959537506,
+        0.10178312659263611,
+        0.12373930960893631,
+        0.07921040058135986,
+        0.11240369081497192,
+        0.09848909825086594,
+        0.09267517179250717,
+        0.08539250493049622
+      ],
+      "best_idx": 3,
+      "random_idx": 3,
+      "best_correct": true,
+      "random_correct": true
+    },
+    {
+      "problem": "Tori's mathematics test had 75 problems: 10 arithmetic, 30 algebra, and 35 geometry problems. Although she answered $70\\%$ of the arithmetic, $40\\%$ of the algebra, and $60\\%$ of the geometry problems correctly, she did not pass the test because she got less than $60\\%$ of the problems right. How many more questions would she have needed to answer correctly to earn a $60\\%$ passing grade? Let's program in Python in the response.",
+      "scores": [
+        0.14488355815410614,
+        0.1403779536485672,
+        0.1443229764699936,
+        0.16275139153003693,
+        0.14158844947814941,
+        0.15081000328063965,
+        0.17378908395767212,
+        0.1770632266998291
+      ],
+      "best_idx": 1,
+      "random_idx": 7,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Let $m$ be the smallest positive, three-digit integer congruent to 5 (mod 11). Let $n$ be the smallest positive, four-digit integer congruent to 5 (mod 11). What is $n-m$?",
+      "scores": [
+        0.13102351129055023,
+        0.10213875770568848,
+        0.13242018222808838,
+        0.09324095398187637,
+        0.09674816578626633,
+        0.11382268369197845,
+        0.1098485141992569,
+        0.1017516627907753
+      ],
+      "best_idx": 3,
+      "random_idx": 5,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "In the game of Mindmaster, secret codes are created by placing pegs of any of seven different colors into four slots. Colors may be repeated, and no slot may remain empty. How many secret codes are possible? Let's write a Python program.",
+      "scores": [
+        0.12473103404045105,
+        0.15406543016433716,
+        0.15636125206947327,
+        0.1567937582731247,
+        0.1539638489484787,
+        0.15159942209720612,
+        0.15393899381160736,
+        0.12461910396814346
+      ],
+      "best_idx": 7,
+      "random_idx": 6,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Simplify $2(3-i)+i(2+i)$. Please respond by writing a program in Python.",
+      "scores": [
+        0.10998913645744324,
+        0.111771360039711,
+        0.11515248566865921,
+        0.10985289514064789,
+        0.11374595761299133,
+        0.1057458445429802,
+        0.12252634018659592,
+        0.09754765033721924
+      ],
+      "best_idx": 7,
+      "random_idx": 7,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Find the real roots of\n\\[x^4 - 2x^3 - x + 2 = 0.\\]",
+      "scores": [
+        0.10480985790491104,
+        0.10023810714483261,
+        0.07863749563694,
+        0.10976123809814453,
+        0.09908217191696167,
+        0.09248491376638412,
+        0.0824003592133522,
+        0.09478777647018433
+      ],
+      "best_idx": 2,
+      "random_idx": 3,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "My three friends and I have dinner together every weekend. Each weekend, two of us cook and the other two clean up afterwards. How many different ways are there for us to choose who cooks and who cleans? Let's program in Python in the response.",
+      "scores": [
+        0.1496189534664154,
+        0.11816797405481339,
+        0.18593594431877136,
+        0.14424489438533783,
+        0.17134100198745728,
+        0.13422778248786926,
+        0.13764257729053497,
+        0.13040368258953094
+      ],
+      "best_idx": 1,
+      "random_idx": 1,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "For $\\{1, 2, 3, \\ldots, n\\}$ and each of its non-empty subsets a unique alternating sum is defined as follows. Arrange the numbers in the subset in decreasing order and then, beginning with the largest, alternately add and subtract successive numbers. For example, the alternating sum for $\\{1, 2, 3, 6,9\\}$ is $9-6+3-2+1=5$ and for $\\{5\\}$ it is simply $5$. Find the sum of all such alternating sums for $n=7$.\n Let's write a Python program.",
+      "scores": [
+        0.1247723326086998,
+        0.13257063925266266,
+        0.12466957420110703,
+        0.12945237755775452,
+        0.1301559954881668,
+        0.12482494115829468,
+        0.1225242093205452,
+        0.12408791482448578
+      ],
+      "best_idx": 6,
+      "random_idx": 2,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Either increasing the radius or the height of a cylinder by six inches will result in the same volume. The original height of the cylinder is two inches. What is the original radius in inches?",
+      "scores": [
+        0.11988279968500137,
+        0.14368821680545807,
+        0.14278192818164825,
+        0.15153203904628754,
+        0.13477873802185059,
+        0.13899469375610352,
+        0.17313216626644135,
+        0.1377386599779129
+      ],
+      "best_idx": 0,
+      "random_idx": 7,
+      "best_correct": true,
+      "random_correct": true
+    },
+    {
+      "problem": "The area of a rectangle is 432 square centimeters. What would the new area be if the length of the rectangle was decreased by $10\\%$ and the width of the rectangle was increased by $10\\%$? Express your answer to the nearest whole number.",
+      "scores": [
+        0.10168978571891785,
+        0.10502122342586517,
+        0.14891083538532257,
+        0.12330052256584167,
+        0.12168577313423157,
+        0.10767315328121185,
+        0.12762746214866638,
+        0.10038948804140091
+      ],
+      "best_idx": 7,
+      "random_idx": 5,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Find the range of the function $f(x) = \\arcsin x + \\arccos x + \\arctan x.$  All functions are in radians.",
+      "scores": [
+        0.10392466932535172,
+        0.08580158650875092,
+        0.08769671618938446,
+        0.07284719496965408,
+        0.0874156802892685,
+        0.07607413828372955,
+        0.07013498991727829,
+        0.0787053257226944
+      ],
+      "best_idx": 6,
+      "random_idx": 6,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "What is the value of $\\left(\\sqrt{4!\\cdot 3!}\\right)^2$? Let's write a Python program to solve it.",
+      "scores": [
+        0.12024427205324173,
+        0.14819732308387756,
+        0.10736880451440811,
+        0.10821419954299927,
+        0.09030788391828537,
+        0.11629192531108856,
+        0.13107901811599731,
+        0.12476574629545212
+      ],
+      "best_idx": 4,
+      "random_idx": 4,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Sides $\\overline{AB}$ and $\\overline{EF}$ of regular hexagon $ABCDEF$ are extended to meet at point $P$. What is the degree measure of angle $P$?",
+      "scores": [
+        0.09272976219654083,
+        0.08414164185523987,
+        0.11729977279901505,
+        0.11425774544477463,
+        0.11385646462440491,
+        0.11257952451705933,
+        0.10910159349441528,
+        0.11927884817123413
+      ],
+      "best_idx": 1,
+      "random_idx": 0,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "A right cylindrical oil tank is $15$ feet tall and its circular bases have diameters of $4$ feet each. When the tank is lying flat on its side (not on one of the circular ends), the oil inside is $3$ feet deep. How deep, in feet, would the oil have been if the tank had been standing upright on one of its bases? Express your answer as a decimal to the nearest tenth.",
+      "scores": [
+        0.11220976710319519,
+        0.13697780668735504,
+        0.14124786853790283,
+        0.09203212708234787,
+        0.09844812005758286,
+        0.11432105302810669,
+        0.16188187897205353,
+        0.12489963322877884
+      ],
+      "best_idx": 3,
+      "random_idx": 1,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Let \\[f(x) =\n\\begin{cases}\n2x + 9 &\\text{if }x<-2, \\\\\n5-2x&\\text{if }x\\ge -2.\n\\end{cases}\n\\]Find $f(-7).$ Please write a program to solve it",
+      "scores": [
+        0.10171729326248169,
+        0.10494960844516754,
+        0.09910648316144943,
+        0.09513864666223526,
+        0.11522968113422394,
+        0.0992024689912796,
+        0.10452146083116531,
+        0.1004774421453476
+      ],
+      "best_idx": 3,
+      "random_idx": 2,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "What is the greatest common divisor of $5!$ and $\\frac{8!}{3!}?$ Express your answer as an integer.  (Reminder: If $n$ is a positive integer, then $n!$ stands for the product $1\\cdot 2\\cdot 3\\cdot \\cdots \\cdot (n-1)\\cdot n$.) Let's write a Python program to solve it.",
+      "scores": [
+        0.1277499794960022,
+        0.10911969840526581,
+        0.10212565213441849,
+        0.10192843526601791,
+        0.1295892894268036,
+        0.11738519370555878,
+        0.10468821227550507,
+        0.12817169725894928
+      ],
+      "best_idx": 3,
+      "random_idx": 1,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Evaluate $\\log_7\\sqrt7$. Let's write a program.",
+      "scores": [
+        0.09365368634462357,
+        0.14026035368442535,
+        0.21422840654850006,
+        0.1622152179479599,
+        0.16460026800632477,
+        0.14651857316493988,
+        0.14001157879829407,
+        0.18499188125133514
+      ],
+      "best_idx": 0,
+      "random_idx": 5,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "When the base-12 integer $1531_{12}$ is divided by $8$, what is the remainder?",
+      "scores": [
+        0.11041057854890823,
+        0.11805208027362823,
+        0.1324577033519745,
+        0.13665162026882172,
+        0.14332400262355804,
+        0.12584184110164642,
+        0.15949274599552155,
+        0.11712639778852463
+      ],
+      "best_idx": 0,
+      "random_idx": 1,
+      "best_correct": true,
+      "random_correct": true
+    },
+    {
+      "problem": "If the system of equations  \\begin{align*}\n3x+y&=a,\\\\\n2x+5y&=2a,\n\\end{align*} has a solution $(x,y)$ when $x=2$, compute $a$.",
+      "scores": [
+        0.11458699405193329,
+        0.10335812717676163,
+        0.10807371139526367,
+        0.1085890382528305,
+        0.11114652454853058,
+        0.14003296196460724,
+        0.11433736234903336,
+        0.09229480475187302
+      ],
+      "best_idx": 7,
+      "random_idx": 3,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "What is the remainder when $2007$ is divided by $81$? Please write a program to solve it",
+      "scores": [
+        0.12546706199645996,
+        0.12254016101360321,
+        0.1196984350681305,
+        0.15102851390838623,
+        0.15061700344085693,
+        0.12520577013492584,
+        0.16132165491580963,
+        0.13201461732387543
+      ],
+      "best_idx": 2,
+      "random_idx": 1,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "The cubic polynomial $p(x)$ satisfies $p(2) = 1,$ $p(7) = 19,$ $p(15) = 11,$ and $p(20) = 29.$  Find\n\\[p(1) + p(2) + p(3) + \\dots + p(21).\\] Let's program in Python in the response.",
+      "scores": [
+        0.1631067991256714,
+        0.17229655385017395,
+        0.14874590933322906,
+        0.13399097323417664,
+        0.16722145676612854,
+        0.12622497975826263,
+        0.1281699538230896,
+        0.14372903108596802
+      ],
+      "best_idx": 5,
+      "random_idx": 6,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "What is half of the absolute value of the difference of the squares of 18 and 16? Let's write a Python program.",
+      "scores": [
+        0.1188058853149414,
+        0.0984826311469078,
+        0.12018366903066635,
+        0.10807688534259796,
+        0.13808724284172058,
+        0.120677150785923,
+        0.11532090604305267,
+        0.1316063404083252
+      ],
+      "best_idx": 1,
+      "random_idx": 1,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "The measure of angle $ACB$ is 40 degrees. If ray $CA$ is rotated 480 degrees about point $C$ in a clockwise direction, what will be the positive measure of the new acute angle $ACB$, in degrees?\n\n[asy]\ndraw((0,0)--dir(40),linewidth(1),Arrow);\ndraw((0,0)--dir(0),linewidth(1),Arrow);\ndot(.8dir(40));\ndot(.8dir(0));\ndot((0,0));\nlabel(\"A\",.8dir(40),NW);\nlabel(\"B\",.8dir(0),S);\nlabel(\"C\",(0,0),W);\n[/asy] Let's write a Python program.",
+      "scores": [
+        0.12743006646633148,
+        0.1376575082540512,
+        0.12903879582881927,
+        0.13217248022556305,
+        0.14120827615261078,
+        0.13284873962402344,
+        0.13187533617019653,
+        0.13872253894805908
+      ],
+      "best_idx": 0,
+      "random_idx": 4,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Find four-thirds of $\\frac{9}{2}$. Let's write a Python program.",
+      "scores": [
+        0.1431068480014801,
+        0.14038223028182983,
+        0.12101049721240997,
+        0.13256637752056122,
+        0.13671746850013733,
+        0.10868193209171295,
+        0.12226253747940063,
+        0.15894228219985962
+      ],
+      "best_idx": 5,
+      "random_idx": 2,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "The diagram shows the miles traveled by bikers Alberto and Bjorn. After four hours about how many more miles has Alberto biked than Bjorn? [asy]\n/* AMC8 1999 #4 Problem */\ndraw((0,0)--(5,0)--(5,3.75)--(0,3.75)--cycle);\nfor(int x=0; x <= 5; ++x) {\n\nfor(real y=0; y <=3.75; y+=0.75)\n\n{\n\ndot((x, y));\n\n}\n}\ndraw((0,0)--(4,3));\ndraw((0,0)--(4,2.25));\nlabel(rotate(30)*\"Bjorn\", (2.6,1));\nlabel(rotate(37.5)*\"Alberto\", (2.5,2.2));\nlabel(scale(0.75)*rotate(90)*\"MILES\", (-1, 2));\nlabel(scale(0.75)*\"HOURS\", (2.5, -1));\n\nlabel(scale(0.85)*\"75\", (0, 3.75), W);\nlabel(scale(0.85)*\"60\", (0, 3), W);\nlabel(scale(0.85)*\"45\", (0, 2.25), W);\nlabel(scale(0.85)*\"30\", (0, 1.5), W);\nlabel(scale(0.85)*\"15\", (0, 0.75), W);\nlabel(scale(0.86)*\"1\", (1, 0), S);\nlabel(scale(0.86)*\"2\", (2, 0), S);\nlabel(scale(0.86)*\"3\", (3, 0), S);\nlabel(scale(0.86)*\"4\", (4, 0), S);\nlabel(scale(0.86)*\"5\", (5, 0), S);\n[/asy]",
+      "scores": [
+        0.15998443961143494,
+        0.15967518091201782,
+        0.14880578219890594,
+        0.16167651116847992,
+        0.1545703262090683,
+        0.16892774403095245,
+        0.160756453871727,
+        0.16054317355155945
+      ],
+      "best_idx": 2,
+      "random_idx": 7,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "How many different positive, four-digit integers can be formed using the digits 2, 2, 9 and 9? Let's program in Python in the response.",
+      "scores": [
+        0.11519818007946014,
+        0.1137872189283371,
+        0.12854686379432678,
+        0.14448362588882446,
+        0.17256690561771393,
+        0.12581796944141388,
+        0.1441202163696289,
+        0.13334201276302338
+      ],
+      "best_idx": 1,
+      "random_idx": 2,
+      "best_correct": false,
+      "random_correct": false
+    },
+    {
+      "problem": "Let $r(\\theta) = \\frac{1}{1-\\theta}$. What is $r(r(r(r(r(r(30))))))$ (where $r$ is applied $6$ times)?",
+      "scores": [
+        0.11303242295980453,
+        0.12885648012161255,
+        0.11699095368385315,
+        0.12058434635400772,
+        0.10408537089824677,
+        0.11462536454200745,
+        0.10237400233745575,
+        0.1185593232512474
+      ],
+      "best_idx": 6,
+      "random_idx": 0,
+      "best_correct": true,
+      "random_correct": true
+    }
+  ]
+}
